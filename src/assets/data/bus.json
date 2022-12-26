@@ -1,0 +1,278 @@
+[
+  {
+    "ID": 1,
+    "BusNo": "R 1",
+    "RouteName": " Trikonbaug To Saurashtra University",
+    "BusName": "R 1 - Trikonbaug To Saurashtra University"
+  },
+  {
+    "ID": 2,
+    "BusNo": "R 2",
+    "RouteName": " Raiya Village To Pradhyuman Park",
+    "BusName": "R 2 - Raiya Village To Pradhyuman Park"
+  },
+  {
+    "ID": 3,
+    "BusNo": "R 3",
+    "RouteName": " Madhapar Chowk to Jivraj Park",
+    "BusName": "R 3 - Madhapar Chowk to Jivraj Park"
+  },
+  {
+    "ID": 4,
+    "BusNo": "R 4",
+    "RouteName": " Ajidam To G.I.D.C. Gate 3",
+    "BusName": "R 4 - Ajidam to G.I.D.C. Gate 3"
+  },
+  {
+    "ID": 5,
+    "BusNo": "R 5",
+    "RouteName": " Raiya Village (Shilpan Onyx) To Tramba Village",
+    "BusName": "R 5 - Raiya Village (Shilpan Onyx) To Tramba Village"
+  },
+  {
+    "ID": 6,
+    "BusNo": "R 6",
+    "RouteName": " Tramba Village To Santoshinagar (Shivalay Chowk)",
+    "BusName": "R 6 - Tramba Village To Santoshinagar (Shivalay Chowk)"
+  },
+  {
+    "ID": 7,
+    "BusNo": "R 7",
+    "RouteName": " Bhaktinagar Circle  To Bajarangavadi Circle",
+    "BusName": "R 7 - Bhaktinagar Circle  To Bajarangavadi Circle"
+  },
+  {
+    "ID": 8,
+    "BusNo": "R 8",
+    "RouteName": " Mavdi Village To Greenland Chowk",
+    "BusName": "R 8 - Mavdi Village To Greenland Chowk"
+  },
+  {
+    "ID": 9,
+    "BusNo": "R 9",
+    "RouteName": " Trikonbaug To Arpit Engg. College",
+    "BusName": "R 9 - Trikon Baug to Arpit Engg. College"
+  },
+  {
+    "ID": 11,
+    "BusNo": "R 11",
+    "RouteName": " Trikonbaug To Shapar Veraval",
+    "BusName": "R 11 - Trikon Baug to Shapar Veraval"
+  },
+  {
+    "ID": 13,
+    "BusNo": "R 13",
+    "RouteName": " Kothariya Chowk To Lalbahadu Shastri Avas",
+    "BusName": "R 13 - Kothariya Chowk To Lalbahadu Shastri Avas"
+  },
+  {
+    "ID": 14,
+    "BusNo": "R 14",
+    "RouteName": " Kothariya Village To Navagam",
+    "BusName": "R 14 - Kothariya Village To Navagam"
+  },
+  {
+    "ID": 15,
+    "BusNo": "R 15",
+    "RouteName": " Kothariya Village To G.I.D.C. Gate 3",
+    "BusName": "R 15 - Kothariya Village To G.I.D.C. Gate 3"
+  },
+  {
+    "ID": 16,
+    "BusNo": "R 16",
+    "RouteName": " Kothariya Village To Saurashtra University",
+    "BusName": "R 16 - Kothariya Village To Saurashtra University"
+  },
+  {
+    "ID": 17,
+    "BusNo": "R 17",
+    "RouteName": " Saurashtra University To Tramba Village",
+    "BusName": "R 17 - Saurashtra University To Tramba Village"
+  },
+  {
+    "ID": 18,
+    "BusNo": "R 18",
+    "RouteName": " Ajidam To G.I.D.C. Gate 3",
+    "BusName": "R 18 - Ajidam to G.I.D.C. Gate 3"
+  },
+  {
+    "ID": 19,
+    "BusNo": "R 19",
+    "RouteName": " Vavdi gam (Akar Heights) To 131 Slum Quarters  ",
+    "BusName": "R 19 - Vavdi gam (Akar Heights) to 131 Slum Quarters  "
+  },
+  {
+    "ID": 20,
+    "BusNo": "R 20",
+    "RouteName": " Ghanteshvar S.R.P. Camp To Shapar Veraval",
+    "BusName": "R 20 - Ghanteshvar S.R.P. Camp To Shapar Veraval"
+  },
+  {
+    "ID": 21,
+    "BusNo": "R 21",
+    "RouteName": " Santiniketan Avenue(Raiya Gaam) To Marketing Yard",
+    "BusName": "R 21 - Santiniketan Avenue(Raiya Gaam) to Marketing Yard"
+  },
+  {
+    "ID": 22,
+    "BusNo": "R 22",
+    "RouteName": " Santiniketan Avenue To H N Shukla CollegeMarketing Yard",
+    "BusName": "R 22 - Santiniketan Avenue to H N Shukla CollegeMarketing Yard"
+  },
+  {
+    "ID": 23,
+    "BusNo": "R 23",
+    "RouteName": " Khodal chowk(Mavdi village) To Pradhuman Park",
+    "BusName": "R 23 - Khodal chowk(Mavdi village) to Pradhuman Park"
+  },
+  {
+    "ID": 24,
+    "BusNo": "R 24",
+    "RouteName": " Trikonbaug To G.I.D.C. Metoda Gate 3",
+    "BusName": "R 24 - Trikonbaug To G.I.D.C. Metoda Gate 3"
+  },
+  {
+    "ID": 25,
+    "BusNo": "R 25",
+    "RouteName": " 131 Slam Quarter To Jivraj Park",
+    "BusName": "R 25 - 131 Slam Quarter To Jivraj Park"
+  },
+  {
+    "ID": 26,
+    "BusNo": "R 26",
+    "RouteName": " Vavdi Gaam To Santoshinagar (Shyamji Krushna Verma Township)",
+    "BusName": "R 26 - Vavdi Gaam to Santoshinagar (Shyamji Krushna Verma Township)"
+  },
+  {
+    "ID": 27,
+    "BusNo": "R 27",
+    "RouteName": " Trikonbaug To Raiyadhar Slum Quarter",
+    "BusName": "R 27 - Trikonbaug To Raiyadhar Slum Quarter"
+  },
+  {
+    "ID": 28,
+    "BusNo": "R 28",
+    "RouteName": " Gujarat Housing Board Quarter To Jivaraj Park",
+    "BusName": "R 28 - Gujarat Housing Board Quarter To Jivaraj Park"
+  },
+  {
+    "ID": 30,
+    "BusNo": "R 30",
+    "RouteName": " Trikonbaug To Trikonbaug Circular - 7",
+    "BusName": "R 30 - Trikonbaug To Trikonbaug Circular  - 7  "
+  },
+  {
+    "ID": 31,
+    "BusNo": "R 31",
+    "RouteName": " Trikonbaug To Trikonbaug Circular - 8",
+    "BusName": "R 31 - Trikonbaug To Trikonbaug Circular  - 8  "
+  },
+  {
+    "ID": 32,
+    "BusNo": "R 32",
+    "RouteName": " Tramba Village To Parsananagar       ",
+    "BusName": "R 32 - Tramba Village To Parsananagar       "
+  },
+  {
+    "ID": 34,
+    "BusNo": "R 34",
+    "RouteName": " Munjaka To Marketing Yard",
+    "BusName": "R 34 - Munjaka To Marketing Yard"
+  },
+  {
+    "ID": 35,
+    "BusNo": "R 35",
+    "RouteName": " Triokonbag To Shapar Veraval",
+    "BusName": "R 35 - Triokonbag To Shapar Veraval"
+  },
+  {
+    "ID": 36,
+    "BusNo": "R 36",
+    "RouteName": " Bhaktinagar Circle To Nyara Gam Chokdi",
+    "BusName": "R 36 - Bhaktinagar Circle To Nyara Gam Chokdi"
+  },
+  {
+    "ID": 37,
+    "BusNo": "R 37",
+    "RouteName": " Vinod Nagar To Chhatrapati Shivaji Township",
+    "BusName": "R 37 - Vinod Nagar To Chhatrapati Shivaji Township"
+  },
+  {
+    "ID": 38,
+    "BusNo": "R 38",
+    "RouteName": " Aji Dam To Madhapar Village",
+    "BusName": "R 38 - Aji Dam To Madhapar Village"
+  },
+  {
+    "ID": 40,
+    "BusNo": "R 40",
+    "RouteName": " Saurastra University  To  Santoshinagar (Shivalay Chowk)",
+    "BusName": "R 40 - Saurastra University  To  Santoshinagar (Shivalay Chowk)"
+  },
+  {
+    "ID": 41,
+    "BusNo": "R 41",
+    "RouteName": " Vinodnagar  To Gangotri Park",
+    "BusName": "R 41 - Vinodnagar  to Gangotri Park"
+  },
+  {
+    "ID": 42,
+    "BusNo": "R 42",
+    "RouteName": " Greenland Chokdi To Jivraj Park",
+    "BusName": "R 42 - Greenland Chokdi To Jivraj Park"
+  },
+  {
+    "ID": 43,
+    "BusNo": "R 43",
+    "RouteName": " Om Residency (Morbi Road Crosing) To Akshar Vatika",
+    "BusName": "R 43 - Om Residency (Morbi Road Crosing) To Akshar Vatika"
+  },
+  {
+    "ID": 44,
+    "BusNo": "R 44",
+    "RouteName": " Trikonbag To Tramba Village",
+    "BusName": "R 44 - Trikonbag To Tramba Village"
+  },
+  {
+    "ID": 45,
+    "BusNo": "R 45",
+    "RouteName": " Saurashtra University To Ratanpar Village",
+    "BusName": "R 45 - Saurashtra University To Ratanpar Village"
+  },
+  {
+    "ID": 46,
+    "BusNo": "R 46",
+    "RouteName": " Trikonbaug To  Arpit Engg. College(Hadala Gaam)",
+    "BusName": "R 46 - Trikonbaug To  Arpit Engg. College(Hadala Gaam)"
+  },
+  {
+    "ID": 47,
+    "BusNo": "R 47",
+    "RouteName": " Kothariya Village To saurashtra university",
+    "BusName": "R 47 - Kothariya Village To saurashtra university"
+  },
+  {
+    "ID": 51,
+    "BusNo": "R 51",
+    "RouteName": " Ghanteshvar S.R.P. Camp To Punitnagar",
+    "BusName": "R 51 - Ghanteshvar S.R.P. Camp To Punitnagar"
+  },
+  {
+    "ID": 54,
+    "BusNo": "R 54",
+    "RouteName": " Kothariya Chowk To Ghanteshvar S.R.P. Camp (G company)",
+    "BusName": "R 54 - Kothariya Chowk To Ghanteshvar S.R.P. Camp (G company)"
+  },
+  {
+    "ID": 55,
+    "BusNo": "R 55",
+    "RouteName": " Gondal Chowk To Ratnapar (Ramji Mandir)",
+    "BusName": "R 55 - Gondal Chowk To Ratnapar (Ramji Mandir)"
+  },
+  {
+    "ID": 57,
+    "BusNo": "R 57",
+    "RouteName": " Trikonbaug To Government Engineering College",
+    "BusName": "R 57 - Trikonbaug To Government Engineering College"
+  }
+]

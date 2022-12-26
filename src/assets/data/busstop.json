@@ -1,0 +1,1606 @@
+[
+  {
+    "ID": 1,
+    "BusStopName": "131 Slum Quarter"
+  },
+  {
+    "ID": 2,
+    "BusStopName": "150 Feet Ring Road - Morbi Road Crossing"
+  },
+  {
+    "ID": 3,
+    "BusStopName": "150 Foot Jamnagar Road Crosing"
+  },
+  {
+    "ID": 4,
+    "BusStopName": "50 Feet Road Crossing"
+  },
+  {
+    "ID": 5,
+    "BusStopName": "53 Quater/Popat Para"
+  },
+  {
+    "ID": 6,
+    "BusStopName": "A G Society"
+  },
+  {
+    "ID": 7,
+    "BusStopName": "A.G. Staff Quarter"
+  },
+  {
+    "ID": 8,
+    "BusStopName": "Aarti Industrial Area"
+  },
+  {
+    "ID": 9,
+    "BusStopName": "Aastha Resi./Rameshwer Park"
+  },
+  {
+    "ID": 10,
+    "BusStopName": "Aditypark"
+  },
+  {
+    "ID": 11,
+    "BusStopName": "Africa Colony"
+  },
+  {
+    "ID": 12,
+    "BusStopName": "Ahir Chowk"
+  },
+  {
+    "ID": 13,
+    "BusStopName": "Aji 66 Kv Station"
+  },
+  {
+    "ID": 14,
+    "BusStopName": "Aji Dam"
+  },
+  {
+    "ID": 15,
+    "BusStopName": "Aji G.I.D.C."
+  },
+  {
+    "ID": 16,
+    "BusStopName": "Aji Vasahat"
+  },
+  {
+    "ID": 17,
+    "BusStopName": "Akashvani Chowk"
+  },
+  {
+    "ID": 18,
+    "BusStopName": "Akashvani School"
+  },
+  {
+    "ID": 19,
+    "BusStopName": "Akshar Complex"
+  },
+  {
+    "ID": 20,
+    "BusStopName": "Akshar Vatika(Mavadi)"
+  },
+  {
+    "ID": 21,
+    "BusStopName": "Aksharnagar"
+  },
+  {
+    "ID": 22,
+    "BusStopName": "Alap Green City"
+  },
+  {
+    "ID": 23,
+    "BusStopName": "Alap Heritage"
+  },
+  {
+    "ID": 24,
+    "BusStopName": "Alay Park"
+  },
+  {
+    "ID": 25,
+    "BusStopName": "Alkapuri"
+  },
+  {
+    "ID": 26,
+    "BusStopName": "Ambaji Kadva Plot"
+  },
+  {
+    "ID": 27,
+    "BusStopName": "Ambika Township"
+  },
+  {
+    "ID": 28,
+    "BusStopName": "Amin Road Akshar Road Crossing"
+  },
+  {
+    "ID": 29,
+    "BusStopName": "Amin Road Civic Center"
+  },
+  {
+    "ID": 30,
+    "BusStopName": "Amrapali Fatak"
+  },
+  {
+    "ID": 31,
+    "BusStopName": "Amrut Park Main Road"
+  },
+  {
+    "ID": 32,
+    "BusStopName": "Anand Bunglow Chowk"
+  },
+  {
+    "ID": 33,
+    "BusStopName": "Arpit Eng. Collage"
+  },
+  {
+    "ID": 34,
+    "BusStopName": "Aryaland Recidency"
+  },
+  {
+    "ID": 35,
+    "BusStopName": "Aryanagar - Pedak Road"
+  },
+  {
+    "ID": 36,
+    "BusStopName": "Aryasamaj"
+  },
+  {
+    "ID": 37,
+    "BusStopName": "Ashapura Temple"
+  },
+  {
+    "ID": 38,
+    "BusStopName": "Ashatha Sangrila"
+  },
+  {
+    "ID": 39,
+    "BusStopName": "Ashok Garden"
+  },
+  {
+    "ID": 40,
+    "BusStopName": "Ashtha Resi/ Sadhuvasvani Kunj Road"
+  },
+  {
+    "ID": 41,
+    "BusStopName": "Astha Green City"
+  },
+  {
+    "ID": 42,
+    "BusStopName": "Astha Residency"
+  },
+  {
+    "ID": 43,
+    "BusStopName": "Astron Chowk/Mahavir Chowk"
+  },
+  {
+    "ID": 44,
+    "BusStopName": "Astron Society"
+  },
+  {
+    "ID": 45,
+    "BusStopName": "Atmiya College/Central School"
+  },
+  {
+    "ID": 46,
+    "BusStopName": "Av Jasani T.B Hospital"
+  },
+  {
+    "ID": 47,
+    "BusStopName": "Azad Chowk"
+  },
+  {
+    "ID": 48,
+    "BusStopName": "B.T.Savani (Kidney) Hospital"
+  },
+  {
+    "ID": 49,
+    "BusStopName": "Babariya Colony"
+  },
+  {
+    "ID": 50,
+    "BusStopName": "Bahumalibhavan"
+  },
+  {
+    "ID": 51,
+    "BusStopName": "Bajarangavadi"
+  },
+  {
+    "ID": 52,
+    "BusStopName": "Bajrangwadi Circle"
+  },
+  {
+    "ID": 53,
+    "BusStopName": "Balaji Hanuman"
+  },
+  {
+    "ID": 54,
+    "BusStopName": "Balajipark/Satelite Park"
+  },
+  {
+    "ID": 55,
+    "BusStopName": "Balak Hanuman Chowk"
+  },
+  {
+    "ID": 56,
+    "BusStopName": "Bapa Sitaram Chowk"
+  },
+  {
+    "ID": 57,
+    "BusStopName": "Bedi"
+  },
+  {
+    "ID": 58,
+    "BusStopName": "Bedi Marketing Yard"
+  },
+  {
+    "ID": 59,
+    "BusStopName": "Bedi Village"
+  },
+  {
+    "ID": 60,
+    "BusStopName": "Bhagavati Para (Jay Prakashnagar)"
+  },
+  {
+    "ID": 61,
+    "BusStopName": "Bhagavati Para Police Choki"
+  },
+  {
+    "ID": 62,
+    "BusStopName": "Bhagirath Society � Marketing Yard"
+  },
+  {
+    "ID": 63,
+    "BusStopName": "Bhagvati Para Sheri No.9"
+  },
+  {
+    "ID": 64,
+    "BusStopName": "Bhakti Park"
+  },
+  {
+    "ID": 65,
+    "BusStopName": "Bhaktinagar Circle"
+  },
+  {
+    "ID": 66,
+    "BusStopName": "Bhaktinagar Station"
+  },
+  {
+    "ID": 67,
+    "BusStopName": "Bharad Engineering College"
+  },
+  {
+    "ID": 68,
+    "BusStopName": "Bheemarav Nagar/Om Residency"
+  },
+  {
+    "ID": 69,
+    "BusStopName": "Bhomeshwer"
+  },
+  {
+    "ID": 70,
+    "BusStopName": "Bhomesvar/Airport"
+  },
+  {
+    "ID": 71,
+    "BusStopName": "Bombay Hotel"
+  },
+  {
+    "ID": 72,
+    "BusStopName": "Brahmasamaj Chowk"
+  },
+  {
+    "ID": 73,
+    "BusStopName": "Central Jail"
+  },
+  {
+    "ID": 74,
+    "BusStopName": "Central Ware House"
+  },
+  {
+    "ID": 75,
+    "BusStopName": "Champak Nagar - Panino Ghodo"
+  },
+  {
+    "ID": 76,
+    "BusStopName": "Chandra Nagar Vegitable"
+  },
+  {
+    "ID": 77,
+    "BusStopName": "Chandreshvadi Chowk"
+  },
+  {
+    "ID": 78,
+    "BusStopName": "Chapak Nagar Panino Ghodo"
+  },
+  {
+    "ID": 79,
+    "BusStopName": "Chitralekha Chowk"
+  },
+  {
+    "ID": 80,
+    "BusStopName": "Chodhari High Shcool"
+  },
+  {
+    "ID": 81,
+    "BusStopName": "Chunarvad Chowk"
+  },
+  {
+    "ID": 82,
+    "BusStopName": "City Light Party Plot"
+  },
+  {
+    "ID": 83,
+    "BusStopName": "Cosmoplex Cinema"
+  },
+  {
+    "ID": 84,
+    "BusStopName": "Criste Collage"
+  },
+  {
+    "ID": 85,
+    "BusStopName": "Crystal Mall"
+  },
+  {
+    "ID": 86,
+    "BusStopName": "Darshan Engineering Collage"
+  },
+  {
+    "ID": 87,
+    "BusStopName": "Devpara"
+  },
+  {
+    "ID": 88,
+    "BusStopName": "Dharmendrasinhji College"
+  },
+  {
+    "ID": 89,
+    "BusStopName": "Diwanpara Police Chowki"
+  },
+  {
+    "ID": 90,
+    "BusStopName": "Doshi Hospital"
+  },
+  {
+    "ID": 91,
+    "BusStopName": "Dr. Aambedakar Chok"
+  },
+  {
+    "ID": 92,
+    "BusStopName": "Dream City"
+  },
+  {
+    "ID": 93,
+    "BusStopName": "Dudheshvar Mahadev"
+  },
+  {
+    "ID": 94,
+    "BusStopName": "Ekta Socity"
+  },
+  {
+    "ID": 95,
+    "BusStopName": "Everest Park"
+  },
+  {
+    "ID": 96,
+    "BusStopName": "Field Marshal Chowk"
+  },
+  {
+    "ID": 97,
+    "BusStopName": "Fuliya Hanuman Temple"
+  },
+  {
+    "ID": 98,
+    "BusStopName": "Fullchhab Chowk"
+  },
+  {
+    "ID": 99,
+    "BusStopName": "G.I.D.C. Gate 1"
+  },
+  {
+    "ID": 100,
+    "BusStopName": "G.I.D.C. Gate 2"
+  },
+  {
+    "ID": 101,
+    "BusStopName": "G.I.D.C. Gate 3"
+  },
+  {
+    "ID": 102,
+    "BusStopName": "G.T.Sheth Hospital/Collector Office"
+  },
+  {
+    "ID": 103,
+    "BusStopName": "Gadhiyanagar"
+  },
+  {
+    "ID": 104,
+    "BusStopName": "Gajanand Chowk"
+  },
+  {
+    "ID": 105,
+    "BusStopName": "Gangotri Park"
+  },
+  {
+    "ID": 106,
+    "BusStopName": "Gauridad Village"
+  },
+  {
+    "ID": 107,
+    "BusStopName": "Gautam Nagar"
+  },
+  {
+    "ID": 108,
+    "BusStopName": "Gauvridal"
+  },
+  {
+    "ID": 109,
+    "BusStopName": "Gauvtam Budha Nagar"
+  },
+  {
+    "ID": 110,
+    "BusStopName": "Gayatri Dhaam"
+  },
+  {
+    "ID": 111,
+    "BusStopName": "Gebanshah Pir Dargah"
+  },
+  {
+    "ID": 112,
+    "BusStopName": "Geet Gunjari Crosing"
+  },
+  {
+    "ID": 113,
+    "BusStopName": "Ghanshyam Nagar/Nanda Hall"
+  },
+  {
+    "ID": 114,
+    "BusStopName": "Ghanteshvar Park"
+  },
+  {
+    "ID": 115,
+    "BusStopName": "Ghanteshvar S.R.P. Camp"
+  },
+  {
+    "ID": 116,
+    "BusStopName": "Ghanteshvar S.R.P. Camp (G Company)"
+  },
+  {
+    "ID": 117,
+    "BusStopName": "Ghanteshvar Village"
+  },
+  {
+    "ID": 118,
+    "BusStopName": "Ghanteshwar Srp Camp Road Crossing"
+  },
+  {
+    "ID": 119,
+    "BusStopName": "Gokul Approch(Nirav Complex)"
+  },
+  {
+    "ID": 120,
+    "BusStopName": "Gokuldham"
+  },
+  {
+    "ID": 121,
+    "BusStopName": "Gokulnagar Aproch (Nirav Complex)"
+  },
+  {
+    "ID": 122,
+    "BusStopName": "Gokulpark"
+  },
+  {
+    "ID": 123,
+    "BusStopName": "Golden Park"
+  },
+  {
+    "ID": 124,
+    "BusStopName": "Gondal Chokadi"
+  },
+  {
+    "ID": 125,
+    "BusStopName": "Gopalnagar Choro"
+  },
+  {
+    "ID": 126,
+    "BusStopName": "Govani Hostel"
+  },
+  {
+    "ID": 127,
+    "BusStopName": "Government Engineering College"
+  },
+  {
+    "ID": 128,
+    "BusStopName": "Government Polytechnic"
+  },
+  {
+    "ID": 129,
+    "BusStopName": "Govind Baug"
+  },
+  {
+    "ID": 130,
+    "BusStopName": "Govind Nagar"
+  },
+  {
+    "ID": 131,
+    "BusStopName": "Gramudhyog Mandir Pedak"
+  },
+  {
+    "ID": 132,
+    "BusStopName": "Grand Central Mall"
+  },
+  {
+    "ID": 133,
+    "BusStopName": "Greenland Chokdi"
+  },
+  {
+    "ID": 134,
+    "BusStopName": "Gujarat Housing Board Quarter/ Sagar Chok"
+  },
+  {
+    "ID": 135,
+    "BusStopName": "Gundawadi Police Chowki"
+  },
+  {
+    "ID": 136,
+    "BusStopName": "Gurudev Park"
+  },
+  {
+    "ID": 137,
+    "BusStopName": "Gurukul"
+  },
+  {
+    "ID": 138,
+    "BusStopName": "Guruprasad Chowk"
+  },
+  {
+    "ID": 139,
+    "BusStopName": "H & N Shukla College"
+  },
+  {
+    "ID": 140,
+    "BusStopName": "Hadala Gam Patiyu/Darshan Eng. Collage"
+  },
+  {
+    "ID": 141,
+    "BusStopName": "Hansarajnagar"
+  },
+  {
+    "ID": 142,
+    "BusStopName": "Hanuman Madhi"
+  },
+  {
+    "ID": 143,
+    "BusStopName": "Haripar Village"
+  },
+  {
+    "ID": 144,
+    "BusStopName": "Harivandna Collage"
+  },
+  {
+    "ID": 145,
+    "BusStopName": "Hemugadhavi Hall"
+  },
+  {
+    "ID": 146,
+    "BusStopName": "Hinglajnagar (Bharvad Chowk)"
+  },
+  {
+    "ID": 147,
+    "BusStopName": "Hospital Chowk"
+  },
+  {
+    "ID": 148,
+    "BusStopName": "Hudco Police Chowki"
+  },
+  {
+    "ID": 149,
+    "BusStopName": "Hudko Police Choki"
+  },
+  {
+    "ID": 150,
+    "BusStopName": "I P Mission"
+  },
+  {
+    "ID": 151,
+    "BusStopName": "I.O.C."
+  },
+  {
+    "ID": 152,
+    "BusStopName": "I.P. Misson"
+  },
+  {
+    "ID": 153,
+    "BusStopName": "Indira Circle"
+  },
+  {
+    "ID": 154,
+    "BusStopName": "Indraprasth Society"
+  },
+  {
+    "ID": 155,
+    "BusStopName": "Indubai Mahasatiji Chowk - Kotecha Chowk"
+  },
+  {
+    "ID": 156,
+    "BusStopName": "Insurance (Vima) Hospital"
+  },
+  {
+    "ID": 157,
+    "BusStopName": "Ip Mission School"
+  },
+  {
+    "ID": 158,
+    "BusStopName": "Jaction Police Station"
+  },
+  {
+    "ID": 159,
+    "BusStopName": "Jagnath Mandir"
+  },
+  {
+    "ID": 160,
+    "BusStopName": "Jagruti Shramjivi Society"
+  },
+  {
+    "ID": 161,
+    "BusStopName": "Jai Jawan Jai Kisan Society"
+  },
+  {
+    "ID": 162,
+    "BusStopName": "Jai Sardar Chowk"
+  },
+  {
+    "ID": 163,
+    "BusStopName": "Jalaram Chowk - Santkabir Road Corner"
+  },
+  {
+    "ID": 164,
+    "BusStopName": "Jalaram Chowk (Gayatrinagar Road)"
+  },
+  {
+    "ID": 165,
+    "BusStopName": "Jalaram Chowk(Gayatri Nagar Road)"
+  },
+  {
+    "ID": 166,
+    "BusStopName": "Jalaram Plot"
+  },
+  {
+    "ID": 167,
+    "BusStopName": "Jaljit Hall"
+  },
+  {
+    "ID": 168,
+    "BusStopName": "Jamtower Chowk"
+  },
+  {
+    "ID": 169,
+    "BusStopName": "Janakpuri - Ajanta Park"
+  },
+  {
+    "ID": 170,
+    "BusStopName": "Jangleshwar Crossing / Bapunagar"
+  },
+  {
+    "ID": 171,
+    "BusStopName": "Jasani School"
+  },
+  {
+    "ID": 172,
+    "BusStopName": "Jay Gopal Chowk"
+  },
+  {
+    "ID": 173,
+    "BusStopName": "Jay Prakashnagar Soci."
+  },
+  {
+    "ID": 174,
+    "BusStopName": "Jetco Chowk"
+  },
+  {
+    "ID": 175,
+    "BusStopName": "Jilla Garden Chowk"
+  },
+  {
+    "ID": 176,
+    "BusStopName": "Jilla Panchayat Chowk"
+  },
+  {
+    "ID": 177,
+    "BusStopName": "Jivan Jyot School"
+  },
+  {
+    "ID": 178,
+    "BusStopName": "Jivantika Main Road Crossing"
+  },
+  {
+    "ID": 179,
+    "BusStopName": "Jivraj Hospital"
+  },
+  {
+    "ID": 180,
+    "BusStopName": "Jivraj Park"
+  },
+  {
+    "ID": 181,
+    "BusStopName": "Jk Park"
+  },
+  {
+    "ID": 182,
+    "BusStopName": "Jograna Chowk"
+  },
+  {
+    "ID": 183,
+    "BusStopName": "Jubilee Baug"
+  },
+  {
+    "ID": 184,
+    "BusStopName": "Julelal Temple"
+  },
+  {
+    "ID": 185,
+    "BusStopName": "Junction Railway Police Station"
+  },
+  {
+    "ID": 186,
+    "BusStopName": "Junction Railway Station"
+  },
+  {
+    "ID": 187,
+    "BusStopName": "K K V Hall"
+  },
+  {
+    "ID": 188,
+    "BusStopName": "Kadvibai School"
+  },
+  {
+    "ID": 189,
+    "BusStopName": "Kailashdhara Park"
+  },
+  {
+    "ID": 190,
+    "BusStopName": "Kalipat"
+  },
+  {
+    "ID": 191,
+    "BusStopName": "Kankot - Kalawad Road"
+  },
+  {
+    "ID": 192,
+    "BusStopName": "Kankot Village"
+  },
+  {
+    "ID": 193,
+    "BusStopName": "Kanta Stri Vikas Gruh"
+  },
+  {
+    "ID": 194,
+    "BusStopName": "Kantavikas Gruh"
+  },
+  {
+    "ID": 195,
+    "BusStopName": "Kevadavadi"
+  },
+  {
+    "ID": 196,
+    "BusStopName": "Khodal Chowk(Mavdi Village)"
+  },
+  {
+    "ID": 197,
+    "BusStopName": "Khokhaldad"
+  },
+  {
+    "ID": 198,
+    "BusStopName": "Kisanpara Chowk"
+  },
+  {
+    "ID": 199,
+    "BusStopName": "Kothariya Chowk"
+  },
+  {
+    "ID": 200,
+    "BusStopName": "Kothariya Colony"
+  },
+  {
+    "ID": 201,
+    "BusStopName": "Kothariya Housing"
+  },
+  {
+    "ID": 202,
+    "BusStopName": "Kothariya Solvant"
+  },
+  {
+    "ID": 203,
+    "BusStopName": "Kothariya Village"
+  },
+  {
+    "ID": 204,
+    "BusStopName": "Kothi Compound"
+  },
+  {
+    "ID": 205,
+    "BusStopName": "Krishna Bangloj (Sadhuvasvani Kunj Road Crosing)"
+  },
+  {
+    "ID": 206,
+    "BusStopName": "Krishna Banglows"
+  },
+  {
+    "ID": 207,
+    "BusStopName": "Krishna International School"
+  },
+  {
+    "ID": 208,
+    "BusStopName": "Kuvadava Police Chowki"
+  },
+  {
+    "ID": 209,
+    "BusStopName": "Labhubhai Trivedi Engineering College"
+  },
+  {
+    "ID": 210,
+    "BusStopName": "Lakheshwar Society - R.T.O. Office"
+  },
+  {
+    "ID": 211,
+    "BusStopName": "Lakhno Bunglow"
+  },
+  {
+    "ID": 212,
+    "BusStopName": "Lalpark Chowk"
+  },
+  {
+    "ID": 213,
+    "BusStopName": "Lic Office"
+  },
+  {
+    "ID": 214,
+    "BusStopName": "Limda Chowk"
+  },
+  {
+    "ID": 215,
+    "BusStopName": "Madhapar Chowk"
+  },
+  {
+    "ID": 216,
+    "BusStopName": "Madhapar Gaam"
+  },
+  {
+    "ID": 217,
+    "BusStopName": "Madhapar Gaam Gate"
+  },
+  {
+    "ID": 218,
+    "BusStopName": "Madhunagar/Rajnagar Society"
+  },
+  {
+    "ID": 219,
+    "BusStopName": "Mahakali Soci."
+  },
+  {
+    "ID": 220,
+    "BusStopName": "Mahapuja Dham"
+  },
+  {
+    "ID": 221,
+    "BusStopName": "Mahila College Chowk (Lic Office )"
+  },
+  {
+    "ID": 222,
+    "BusStopName": "Makkam Chowk"
+  },
+  {
+    "ID": 223,
+    "BusStopName": "Malaviya Chowk"
+  },
+  {
+    "ID": 224,
+    "BusStopName": "Manharpar"
+  },
+  {
+    "ID": 225,
+    "BusStopName": "Manharpura - (150 Foot Road )"
+  },
+  {
+    "ID": 226,
+    "BusStopName": "Manharpura - Bedinaka Fire Station"
+  },
+  {
+    "ID": 227,
+    "BusStopName": "Mansarovar Society"
+  },
+  {
+    "ID": 228,
+    "BusStopName": "Marketing Yard"
+  },
+  {
+    "ID": 229,
+    "BusStopName": "Marutinagar (Sarvoday Housing Society)"
+  },
+  {
+    "ID": 230,
+    "BusStopName": "Marutinagar 50Ft Road Chowk"
+  },
+  {
+    "ID": 231,
+    "BusStopName": "Marwadi College"
+  },
+  {
+    "ID": 232,
+    "BusStopName": "Mavdi Chowk"
+  },
+  {
+    "ID": 233,
+    "BusStopName": "Mavdi Fire Station"
+  },
+  {
+    "ID": 234,
+    "BusStopName": "Mavdi Village"
+  },
+  {
+    "ID": 235,
+    "BusStopName": "Mayani Chowk"
+  },
+  {
+    "ID": 236,
+    "BusStopName": "Mochinagar"
+  },
+  {
+    "ID": 237,
+    "BusStopName": "Mota Mauva"
+  },
+  {
+    "ID": 238,
+    "BusStopName": "Mukhay Mantri Avash Yojna Cawtat"
+  },
+  {
+    "ID": 239,
+    "BusStopName": "Mukhyamantri Aavas Yogna-Avadh Road"
+  },
+  {
+    "ID": 240,
+    "BusStopName": "Nageshavar Jain Derashar"
+  },
+  {
+    "ID": 241,
+    "BusStopName": "Nalodanagar"
+  },
+  {
+    "ID": 242,
+    "BusStopName": "Nana Mava Chowk"
+  },
+  {
+    "ID": 243,
+    "BusStopName": "Nanavati Chowk"
+  },
+  {
+    "ID": 244,
+    "BusStopName": "Navagam"
+  },
+  {
+    "ID": 245,
+    "BusStopName": "New Lalbahadur Society (Pardi Chowk)"
+  },
+  {
+    "ID": 246,
+    "BusStopName": "New Munjka"
+  },
+  {
+    "ID": 247,
+    "BusStopName": "New Rajdeep Society"
+  },
+  {
+    "ID": 248,
+    "BusStopName": "New Subhasnagar"
+  },
+  {
+    "ID": 249,
+    "BusStopName": "Nilkanth Cinema"
+  },
+  {
+    "ID": 250,
+    "BusStopName": "Om Residency"
+  },
+  {
+    "ID": 251,
+    "BusStopName": "Om Residency (Morbi Road Crosing)"
+  },
+  {
+    "ID": 252,
+    "BusStopName": "Omnagar"
+  },
+  {
+    "ID": 253,
+    "BusStopName": "P & T Colony/Gitanagar"
+  },
+  {
+    "ID": 254,
+    "BusStopName": "P.D.M. College"
+  },
+  {
+    "ID": 255,
+    "BusStopName": "Paladi Village"
+  },
+  {
+    "ID": 256,
+    "BusStopName": "Panchashil Soc. Approch Road"
+  },
+  {
+    "ID": 257,
+    "BusStopName": "Panchayat Nagar Chowk"
+  },
+  {
+    "ID": 258,
+    "BusStopName": "Panchsheel Society"
+  },
+  {
+    "ID": 259,
+    "BusStopName": "Parapipaliya Gaam"
+  },
+  {
+    "ID": 260,
+    "BusStopName": "Pardi Road Crossing"
+  },
+  {
+    "ID": 261,
+    "BusStopName": "Pardi Village"
+  },
+  {
+    "ID": 262,
+    "BusStopName": "Parevadi Chowk"
+  },
+  {
+    "ID": 263,
+    "BusStopName": "Parsananagar"
+  },
+  {
+    "ID": 264,
+    "BusStopName": "Parsananagar (Ayapapaa Mandir)"
+  },
+  {
+    "ID": 265,
+    "BusStopName": "Parsananagar Main Road"
+  },
+  {
+    "ID": 266,
+    "BusStopName": "Patel Chowk"
+  },
+  {
+    "ID": 267,
+    "BusStopName": "Patel Nagar"
+  },
+  {
+    "ID": 268,
+    "BusStopName": "Patel Vadi"
+  },
+  {
+    "ID": 269,
+    "BusStopName": "Patidar Chowk"
+  },
+  {
+    "ID": 270,
+    "BusStopName": "Phulvadi Park"
+  },
+  {
+    "ID": 271,
+    "BusStopName": "Pipaliya Hall/Bhakti Hall"
+  },
+  {
+    "ID": 272,
+    "BusStopName": "Police Head Quarter"
+  },
+  {
+    "ID": 273,
+    "BusStopName": "Popatpara"
+  },
+  {
+    "ID": 274,
+    "BusStopName": "Popatpara Central Jail"
+  },
+  {
+    "ID": 275,
+    "BusStopName": "Pradhyuman Park"
+  },
+  {
+    "ID": 276,
+    "BusStopName": "Prasheel Park"
+  },
+  {
+    "ID": 277,
+    "BusStopName": "Punit Nagar (66 Kv )"
+  },
+  {
+    "ID": 278,
+    "BusStopName": "Punit Nagar Brts"
+  },
+  {
+    "ID": 279,
+    "BusStopName": "Punitnagar"
+  },
+  {
+    "ID": 280,
+    "BusStopName": "Pushkardham"
+  },
+  {
+    "ID": 281,
+    "BusStopName": "R.K. University"
+  },
+  {
+    "ID": 282,
+    "BusStopName": "Radha Krishna Chowk"
+  },
+  {
+    "ID": 283,
+    "BusStopName": "Radha Meera Area"
+  },
+  {
+    "ID": 284,
+    "BusStopName": "Radhe Park/Gangotri Park"
+  },
+  {
+    "ID": 285,
+    "BusStopName": "Radhika Park"
+  },
+  {
+    "ID": 286,
+    "BusStopName": "Rafuji Colony/Shashtri Nagar"
+  },
+  {
+    "ID": 287,
+    "BusStopName": "Railnagar"
+  },
+  {
+    "ID": 288,
+    "BusStopName": "Railway Colony"
+  },
+  {
+    "ID": 289,
+    "BusStopName": "Raiya Chowk"
+  },
+  {
+    "ID": 290,
+    "BusStopName": "Raiya Telephone Excenge"
+  },
+  {
+    "ID": 291,
+    "BusStopName": "Raiya Village"
+  },
+  {
+    "ID": 292,
+    "BusStopName": "Raiyadhar Slum Quarter"
+  },
+  {
+    "ID": 293,
+    "BusStopName": "Rajkamal Petrol Pump"
+  },
+  {
+    "ID": 294,
+    "BusStopName": "Rajkamal Petrolum"
+  },
+  {
+    "ID": 295,
+    "BusStopName": "Rajkot Dairy"
+  },
+  {
+    "ID": 296,
+    "BusStopName": "Rajkot Mahanagar Palika Aavas"
+  },
+  {
+    "ID": 297,
+    "BusStopName": "Rajlaxmi Soci."
+  },
+  {
+    "ID": 298,
+    "BusStopName": "Rajnagar Main Road Crossing"
+  },
+  {
+    "ID": 299,
+    "BusStopName": "Rajshree Auto"
+  },
+  {
+    "ID": 300,
+    "BusStopName": "Ramdevpir Chowk"
+  },
+  {
+    "ID": 301,
+    "BusStopName": "Rameshwari Chowk"
+  },
+  {
+    "ID": 302,
+    "BusStopName": "Ramkrushna Ashram"
+  },
+  {
+    "ID": 303,
+    "BusStopName": "Ramnath Para (B-Division Police Station)"
+  },
+  {
+    "ID": 304,
+    "BusStopName": "Ranchoddas Ashram"
+  },
+  {
+    "ID": 305,
+    "BusStopName": "Rangoli Park/Lakshmino Dholo"
+  },
+  {
+    "ID": 306,
+    "BusStopName": "Ranuja Temple"
+  },
+  {
+    "ID": 307,
+    "BusStopName": "Ratanpar Telephone Exchange"
+  },
+  {
+    "ID": 308,
+    "BusStopName": "Ratanpar Village"
+  },
+  {
+    "ID": 309,
+    "BusStopName": "Ratnapar ( Ramji Mandir)"
+  },
+  {
+    "ID": 310,
+    "BusStopName": "Rmc East Zone Office"
+  },
+  {
+    "ID": 311,
+    "BusStopName": "Ruda 2"
+  },
+  {
+    "ID": 312,
+    "BusStopName": "Ruda Office"
+  },
+  {
+    "ID": 313,
+    "BusStopName": "Rular Housing"
+  },
+  {
+    "ID": 314,
+    "BusStopName": "S T Bus Stand"
+  },
+  {
+    "ID": 315,
+    "BusStopName": "S.B.I Bank"
+  },
+  {
+    "ID": 316,
+    "BusStopName": "S.T. Workshop"
+  },
+  {
+    "ID": 317,
+    "BusStopName": "Sadhuvasvani School"
+  },
+  {
+    "ID": 318,
+    "BusStopName": "Sahakar Society"
+  },
+  {
+    "ID": 319,
+    "BusStopName": "Sainik Society"
+  },
+  {
+    "ID": 320,
+    "BusStopName": "Sankalp Siddh Park"
+  },
+  {
+    "ID": 321,
+    "BusStopName": "Sanskar City"
+  },
+  {
+    "ID": 322,
+    "BusStopName": "Santiniketan Avenue(Raiya Gaam)"
+  },
+  {
+    "ID": 323,
+    "BusStopName": "Santiniketan Park"
+  },
+  {
+    "ID": 324,
+    "BusStopName": "Santoshinagar"
+  },
+  {
+    "ID": 325,
+    "BusStopName": "Santoshinagar Railway Crossing"
+  },
+  {
+    "ID": 326,
+    "BusStopName": "Sardabaag"
+  },
+  {
+    "ID": 327,
+    "BusStopName": "Sardar Vallabhbhai Vidhyalay"
+  },
+  {
+    "ID": 328,
+    "BusStopName": "Sarita Vihar Socity"
+  },
+  {
+    "ID": 329,
+    "BusStopName": "Sarojeeni Nayadu School (Ambaji Kadva Plot)"
+  },
+  {
+    "ID": 330,
+    "BusStopName": "Sastrinagar"
+  },
+  {
+    "ID": 331,
+    "BusStopName": "Satellite Chowk - Marutinagar Aproach Road"
+  },
+  {
+    "ID": 332,
+    "BusStopName": "Satya Prakash School"
+  },
+  {
+    "ID": 333,
+    "BusStopName": "Satyam Park"
+  },
+  {
+    "ID": 334,
+    "BusStopName": "Satyasai Road Crossing"
+  },
+  {
+    "ID": 335,
+    "BusStopName": "Satysai Hospital"
+  },
+  {
+    "ID": 336,
+    "BusStopName": "Saurashtra University"
+  },
+  {
+    "ID": 337,
+    "BusStopName": "Saurastra University Gate"
+  },
+  {
+    "ID": 338,
+    "BusStopName": "Shantinagar"
+  },
+  {
+    "ID": 339,
+    "BusStopName": "Shapar Veraval"
+  },
+  {
+    "ID": 340,
+    "BusStopName": "Shardabag"
+  },
+  {
+    "ID": 341,
+    "BusStopName": "Sheth High School"
+  },
+  {
+    "ID": 342,
+    "BusStopName": "Shethnagar"
+  },
+  {
+    "ID": 343,
+    "BusStopName": "Shinchy Nagar"
+  },
+  {
+    "ID": 344,
+    "BusStopName": "Shital Park"
+  },
+  {
+    "ID": 345,
+    "BusStopName": "Shitalamajaji Temple"
+  },
+  {
+    "ID": 346,
+    "BusStopName": "Shiv Shakti Colony"
+  },
+  {
+    "ID": 347,
+    "BusStopName": "Shivalay Appartment"
+  },
+  {
+    "ID": 348,
+    "BusStopName": "Shivam Park"
+  },
+  {
+    "ID": 349,
+    "BusStopName": "Shivdhara Residency"
+  },
+  {
+    "ID": 350,
+    "BusStopName": "Shivnagar - Doshi Hospital"
+  },
+  {
+    "ID": 351,
+    "BusStopName": "Shree City (Munjka Gam)"
+  },
+  {
+    "ID": 352,
+    "BusStopName": "Shree Dharmeshwar Marg Chowk"
+  },
+  {
+    "ID": 353,
+    "BusStopName": "Shree Ram Park - Kuvadva"
+  },
+  {
+    "ID": 354,
+    "BusStopName": "Shree Ranima Rudima Chok"
+  },
+  {
+    "ID": 355,
+    "BusStopName": "Shyam Hall"
+  },
+  {
+    "ID": 356,
+    "BusStopName": "Shymal City"
+  },
+  {
+    "ID": 357,
+    "BusStopName": "Sitala Mataji Temple"
+  },
+  {
+    "ID": 358,
+    "BusStopName": "Somesvasr Mahadev Munjka Gam"
+  },
+  {
+    "ID": 359,
+    "BusStopName": "Sorathiyavadi Circle"
+  },
+  {
+    "ID": 360,
+    "BusStopName": "Soratiya Parivar Vadi"
+  },
+  {
+    "ID": 361,
+    "BusStopName": "Special School For Boys"
+  },
+  {
+    "ID": 362,
+    "BusStopName": "Styaprakash School"
+  },
+  {
+    "ID": 363,
+    "BusStopName": "Suryamukhi Hanuman Chowk"
+  },
+  {
+    "ID": 364,
+    "BusStopName": "Svapnalok Resi."
+  },
+  {
+    "ID": 365,
+    "BusStopName": "Svashrai Society"
+  },
+  {
+    "ID": 366,
+    "BusStopName": "Swaminarayan Chowk"
+  },
+  {
+    "ID": 367,
+    "BusStopName": "Swaminarayan Mandir/ Mahila Collage Chowk"
+  },
+  {
+    "ID": 368,
+    "BusStopName": "Swati Soc."
+  },
+  {
+    "ID": 369,
+    "BusStopName": "Thebachda - Mahika Patiu"
+  },
+  {
+    "ID": 370,
+    "BusStopName": "Thorala Police Station"
+  },
+  {
+    "ID": 371,
+    "BusStopName": "Tramba Village"
+  },
+  {
+    "ID": 372,
+    "BusStopName": "Trikonbaug"
+  },
+  {
+    "ID": 373,
+    "BusStopName": "Trishul Chowk"
+  },
+  {
+    "ID": 374,
+    "BusStopName": "Tulsi Baag"
+  },
+  {
+    "ID": 375,
+    "BusStopName": "Uma P.T.C. College"
+  },
+  {
+    "ID": 376,
+    "BusStopName": "Umakant Pandit"
+  },
+  {
+    "ID": 377,
+    "BusStopName": "Unicare Hospital"
+  },
+  {
+    "ID": 378,
+    "BusStopName": "V.V.P. Engineering College"
+  },
+  {
+    "ID": 379,
+    "BusStopName": "Vadvajadi Village"
+  },
+  {
+    "ID": 380,
+    "BusStopName": "Vadvajadi Village-1"
+  },
+  {
+    "ID": 381,
+    "BusStopName": "Vadvajadi Village-2"
+  },
+  {
+    "ID": 382,
+    "BusStopName": "Vagudad Village"
+  },
+  {
+    "ID": 383,
+    "BusStopName": "Vakaner Socity Corner"
+  },
+  {
+    "ID": 384,
+    "BusStopName": "Valkeshwar Society"
+  },
+  {
+    "ID": 385,
+    "BusStopName": "Vavdee Gam/ School"
+  },
+  {
+    "ID": 386,
+    "BusStopName": "Vavdee Gam/ Ward Office"
+  },
+  {
+    "ID": 387,
+    "BusStopName": "Velnathpara ( Street No. 17 )"
+  },
+  {
+    "ID": 388,
+    "BusStopName": "Velnathpara Beginning ( Nr. School No. 71 )"
+  },
+  {
+    "ID": 389,
+    "BusStopName": "Vidhyutnagar"
+  },
+  {
+    "ID": 390,
+    "BusStopName": "Vimal Nagar"
+  },
+  {
+    "ID": 391,
+    "BusStopName": "Vinod Nagar"
+  },
+  {
+    "ID": 392,
+    "BusStopName": "Virda Vajadi Village"
+  },
+  {
+    "ID": 393,
+    "BusStopName": "Vishvnagar"
+  },
+  {
+    "ID": 394,
+    "BusStopName": "Vora Society"
+  },
+  {
+    "ID": 395,
+    "BusStopName": "Vrukshmandir"
+  },
+  {
+    "ID": 396,
+    "BusStopName": "Vrundavan Road Crossing"
+  },
+  {
+    "ID": 397,
+    "BusStopName": "Vrundavan Society"
+  },
+  {
+    "ID": 398,
+    "BusStopName": "Wankaner Society"
+  },
+  {
+    "ID": 399,
+    "BusStopName": "Wankaner Society Corner"
+  },
+  {
+    "ID": 400,
+    "BusStopName": "Wockhardt�Hospital"
+  },
+  {
+    "ID": 401,
+    "BusStopName": "Yadunandan Chok"
+  }
+]

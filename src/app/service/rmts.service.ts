@@ -20,6 +20,18 @@ export class RmtsService {
     return this.http.get(`https://api.rmtsbus.in/v0/routes/?source=${source}&dest=${dest}`)
   }
 
+  getAllBusFromJSON() {
+    return this.http.get('assets/data/bus.json');
+  }
+
+  getAllBusStopFromJSON() {
+    return this.http.get('assets/data/busstop.json');
+  }
+
+  getBusTimeFromJSON() {
+    return this.http.get('assets/data/bustime.json');
+  }
+
   /* getBusLiveLocation() {
     return this.http.get('https://api.rmtsbus.in/graphql');
   } */

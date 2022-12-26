@@ -21,5 +21,8 @@ export class BusListComponent implements OnInit {
       if(res.success)
         this.BusList = res.data;
     })
+    this.rmtsService.getAllBusFromJSON().subscribe(data => {
+      console.log(data);
+    })
   }
 }
