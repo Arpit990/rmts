@@ -1,0 +1,9 @@
+<div class="container my-5">
+
+    <ul class="list-group" *ngFor="let bus of BusList">
+        <a class="text-decoration-none" routerLink="../BusDetail/{{bus.busNo}}">
+            <li class="list-group-item my-1"> {{ bus.busNo + ' From: ' + bus.source + ' To: ' + bus.destination }} </li>
+        </a>
+    </ul>
+
+</div>

@@ -1,0 +1,38 @@
+<div class="container my-4">
+    <nav>
+        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bus Stop</button>
+            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Departure Time From {{
+                BusDetail.source }}</button>
+            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
+                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Departure Time From {{
+                BusDetail.destination }} </button>
+            <button class="nav-link" id="nav-location-tab" data-bs-toggle="tab" data-bs-target="#nav-location"
+                type="button" role="tab" aria-controls="nav-location" aria-selected="true">Location</button>
+        </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent">
+        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+            <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
+                <li class="list-group-item"> {{ stop }} </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+            <ul class="list-group list-group-flush" *ngFor="let sourceTime of BusDetail.dapartureFromSource">
+                <li class="list-group-item"> {{ sourceTime }} </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+            <ul class="list-group list-group-flush" *ngFor="let destTime of BusDetail.departureFromDest">
+                <li class="list-group-item"> {{ destTime }} </li>
+            </ul>
+        </div>
+        <div class="tab-pane fade show active" id="nav-location" role="tabpanel" aria-labelledby="nav-location-tab">
+            <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
+                <li class="list-group-item"> {{ stop }} </li>
+            </ul>
+        </div>
+    </div>
+</div>
