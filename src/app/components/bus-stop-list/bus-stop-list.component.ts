@@ -9,6 +9,7 @@ import { RmtsService } from 'src/app/service/rmts.service';
 export class BusStopListComponent implements OnInit {
 
   BusStopList:any;
+  totalBusStop:number = 0;
 
   constructor(private rmtsService: RmtsService) { }
 
@@ -20,6 +21,7 @@ export class BusStopListComponent implements OnInit {
     this.rmtsService.getAllBusStop().subscribe((res:any) => {
       if(res.success)
         this.BusStopList = res.data;
+        this.totalBusStop = res.data.length
     })
   }
 

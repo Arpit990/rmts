@@ -15,6 +15,7 @@ export class BusDetailComponent implements OnInit {
   id: any;
   BusDetail: any;
   BusLocation: any;
+  TotalBusStop: number = 0;
 
   constructor(
     private router: Router,
@@ -27,7 +28,7 @@ export class BusDetailComponent implements OnInit {
     this.id = this.route.snapshot.params['id'];
     this.getBusDetail(this.id)
 
-    setInterval(() => {
+    setTimeout(() => {
       this.getBusLiveLocation();
     }, 2000)
   }
@@ -36,6 +37,7 @@ export class BusDetailComponent implements OnInit {
     this.rmtsService.getAllBus(id).subscribe((res: any) => {
       if (res.success)
         this.BusDetail = res.data[0];
+        this.TotalBusStop = this.BusDetail.routes.length
     })
   }
 

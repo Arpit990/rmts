@@ -1,26 +1,146 @@
-<div class="mb-5 hover-scroll-x">
-    <div class="d-grid">
-        <ul class="nav nav-tabs flex-nowrap text-nowrap">
-            <li class="nav-item">
-                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_1">Bus Stops</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_2">
-                    Departure Time From {{ BusDetail.source }}
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_3">
-                    Departure Time From {{ BusDetail.destination }}
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_4">Live Location</a>
-            </li>   
-        </ul>
+<div class="row">
+    <div class="col-xl-6 col-md-8 col-sm-12 m-auto">
+        <!--begin::Alert-->
+        <div class="alert alert-dismissible bg-light-secondary d-flex flex-column py-10 px-10 px-lg-20 mb-10">
+            <!--begin::Wrapper-->
+            <div class="text-start">
+                <!--begin::Title-->
+                <div class="d-flex align-items-center mb-6">
+                    <!--begin::Bullet-->
+                    <span
+                        class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success bg-opacity-50"></span>
+                    <!--end::Bullet-->
+                    <!--begin::Info-->
+                    <div class="flex-grow-1 me-5">
+                        <!--begin::Time-->
+                        <div class="text-gray-800 fw-semibold fs-2">
+                            <span class="me-3"> {{ BusDetail.busNo + ' ' + BusDetail.source }}</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                preserveAspectRatio="xMidYMid meet" viewBox="0 0 512 512">
+                                <path fill="#ffc700"
+                                    d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z" />
+                            </svg>
+                            <span class="ms-1"> {{ BusDetail.destination }} </span>
+                        </div>
+                        <!--end::Time-->
+                        <!--begin::Description-->
+                        <div class="text-gray-700 fw-semibold fs-6">{{TotalBusStop}} Bus stops</div>
+                        <!--end::Description-->
+                    </div>
+                    <!--end::Info-->
+                    <!--begin::Action-->
+                    <a href="#" class="btn btn-sm btn-light">View</a>
+                    <!--end::Action-->
+                </div>
+                <!--end::Title-->
+
+                <!--begin::Content-->
+                <div class="text-dark">
+                    <div class="d-flex flex-stack">
+                        <!--begin::Section-->
+                        <div class="d-flex align-items-center me-5">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-40px me-4">
+                                <span class="symbol-label">
+                                    <i class="fonticon-location fs-1 p-0 text-gray-600"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Content-->
+                            <div class="me-5">
+                                <a href="#" class="text-gray-800 fw-bold text-hover-primary fs-6">View all bus stops</a>
+                            </div>
+                            <!--end::Content-->
+                        </div>
+                        <!--end::Section-->
+                        <div class="text-gray-400 fw-bold fs-7 text-end">
+                            <!--begin::Number-->
+                            <span class="text-gray-800 fw-bold fs-6 d-block pe-3">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                            <!--end::Number-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--end::Content-->
+                
+                <!--begin::Separator-->
+                <div class="separator separator-dashed border-dark opacity-25 my-3"></div>
+                <!--end::Separator-->
+
+                <!--begin::Content-->
+                <div class="text-dark">
+                    <div class="d-flex flex-stack">
+                        <!--begin::Section-->
+                        <div class="d-flex align-items-center me-5">
+                            <!--begin::Symbol-->
+                            <div class="symbol symbol-40px me-4">
+                                <span class="symbol-label">
+                                    <i class="bi bi-clock fs-2 p-0 text-gray-600"></i>
+                                </span>
+                            </div>
+                            <!--end::Symbol-->
+                            <!--begin::Content-->
+                            <div class="me-5">
+                                <a href="#" class="text-gray-800 fw-bold text-hover-primary fs-6">View all departure time</a>
+                            </div>
+                            <!--end::Content-->
+                        </div>
+                        <!--end::Section-->
+                        <div class="text-gray-400 fw-bold fs-7 text-end">
+                            <!--begin::Number-->
+                            <span class="text-gray-800 fw-bold fs-6 d-block pe-3">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </span>
+                            <!--end::Number-->
+                        </div>
+
+                    </div>
+                </div>
+                <!--end::Content-->
+
+            </div>
+            <!--end::Wrapper-->
+        </div>
+        <!--end::Alert-->
+
+        <div *ngFor="let loc of BusLocation">
+            <div class="card shadow-sm rounded-1 my-6 border-gray-500 border-dashed">
+                <div class="card-header">
+                    <div class="d-flex flex-stack">
+                        <!--begin::Symbol-->
+                        <div class="symbol symbol-40px me-4">
+                            <div class="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">
+                                {{ BusDetail.busNo }}
+                            </div>
+                        </div>
+                        <!--end::Symbol-->
+                        <!--begin::Section-->
+                        <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                            <!--begin:Author-->
+                            <div class="flex-grow-1 me-2">
+                                <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-semibold">
+                                    {{ BusDetail.source }} to {{ BusDetail.destination }}
+                                </a>
+                                <span class="text-muted d-block fs-7"> Last updated at {{ loc.Lastdate | date
+                                    :'shortTime' }} </span>
+                            </div>
+                            <!--end:Author-->
+                        </div>
+                        <!--end::Section-->
+                    </div>
+                </div>
+                <div class="card-body p-1">
+                    <img alt="Map" class="w-100"
+                        src="https://maps.rmtsbus.in/?lat={{loc.Latitude}}&amp;lon={{loc.Longitude}}">
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
+<!-- 
 <div class="tab-content" id="myTabContent">
     <div class="tab-pane fade" id="kt_tab_pane_1" role="tabpanel">
         <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
@@ -40,8 +160,8 @@
     <div class="tab-pane fade show active" id="kt_tab_pane_4" role="tabpanel">
         <div class="list-group list-group-flush w-50" *ngFor="let loc of BusLocation">
             <div class="w-50 m-auto my-4">
-                <img alt="Map" class="h-500px me-15" src="https://maps.rmtsbus.in/?lat={{loc.Latitude}}&amp;lon={{loc.Longitude}}">
+
             </div>
         </div>
     </div>
-</div>
+</div> -->
