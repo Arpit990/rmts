@@ -14,6 +14,7 @@ export class BusDetailComponent implements OnInit {
 
   id: any;
   BusDetail: any;
+  BusLocation: any;
 
   constructor(
     private router: Router,
@@ -23,9 +24,22 @@ export class BusDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.id =  this.route.snapshot.params['id'];
+    this.id = this.route.snapshot.params['id'];
     this.getBusDetail(this.id)
 
+    setInterval(() => {
+      this.getBusLiveLocation();
+    }, 2000)
+  }
+
+  getBusDetail(id: any) {
+    this.rmtsService.getAllBus(id).subscribe((res: any) => {
+      if (res.success)
+        this.BusDetail = res.data[0];
+    })
+  }
+
+  getBusLiveLocation() {
     var requestId = uuid.v4();
     this.apollo
       .watchQuery<any>({
@@ -44,15 +58,7 @@ export class BusDetailComponent implements OnInit {
     `,
       })
       .valueChanges.subscribe((result) => {
-        console.log(result,'GraphgQL');
+        this.BusLocation = result.data.getBusLoc;
       });
-  }
-
-  getBusDetail(id:any) {
-    this.rmtsService.getAllBus(id).subscribe((res:any) => {
-      if(res.success)
-        this.BusDetail = res.data[0];
-      console.log(this.BusDetail);
-    })
   }
 }

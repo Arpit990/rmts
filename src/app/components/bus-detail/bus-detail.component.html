@@ -1,38 +1,47 @@
-<div class="container my-4">
-    <nav>
-        <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
-                type="button" role="tab" aria-controls="nav-home" aria-selected="true">Bus Stop</button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
-                type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Departure Time From {{
-                BusDetail.source }}</button>
-            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact"
-                type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Departure Time From {{
-                BusDetail.destination }} </button>
-            <button class="nav-link" id="nav-location-tab" data-bs-toggle="tab" data-bs-target="#nav-location"
-                type="button" role="tab" aria-controls="nav-location" aria-selected="true">Location</button>
-        </div>
-    </nav>
-    <div class="tab-content" id="nav-tabContent">
-        <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
-            <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
-                <li class="list-group-item"> {{ stop }} </li>
-            </ul>
-        </div>
-        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-            <ul class="list-group list-group-flush" *ngFor="let sourceTime of BusDetail.dapartureFromSource">
-                <li class="list-group-item"> {{ sourceTime }} </li>
-            </ul>
-        </div>
-        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-            <ul class="list-group list-group-flush" *ngFor="let destTime of BusDetail.departureFromDest">
-                <li class="list-group-item"> {{ destTime }} </li>
-            </ul>
-        </div>
-        <div class="tab-pane fade show active" id="nav-location" role="tabpanel" aria-labelledby="nav-location-tab">
-            <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
-                <li class="list-group-item"> {{ stop }} </li>
-            </ul>
+<div class="mb-5 hover-scroll-x">
+    <div class="d-grid">
+        <ul class="nav nav-tabs flex-nowrap text-nowrap">
+            <li class="nav-item">
+                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_1">Bus Stops</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_2">
+                    Departure Time From {{ BusDetail.source }}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_3">
+                    Departure Time From {{ BusDetail.destination }}
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link btn btn-active-light btn-color-gray-600 btn-active-color-primary rounded-bottom-0" data-bs-toggle="tab" href="#kt_tab_pane_4">Live Location</a>
+            </li>   
+        </ul>
+    </div>
+</div>
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade" id="kt_tab_pane_1" role="tabpanel">
+        <ul class="list-group list-group-flush" *ngFor="let stop of BusDetail.routes">
+            <li class="list-group-item"> {{ stop }} </li>
+        </ul>
+    </div>
+    <div class="tab-pane fade" id="kt_tab_pane_2" role="tabpanel">
+        <ul class="list-group list-group-flush" *ngFor="let sourceTime of BusDetail.dapartureFromSource">
+            <li class="list-group-item"> {{ sourceTime }} </li>
+        </ul>
+    </div>
+    <div class="tab-pane fade" id="kt_tab_pane_3" role="tabpanel">
+        <ul class="list-group list-group-flush" *ngFor="let destTime of BusDetail.departureFromDest">
+            <li class="list-group-item"> {{ destTime }} </li>
+        </ul>
+    </div>
+    <div class="tab-pane fade show active" id="kt_tab_pane_4" role="tabpanel">
+        <div class="list-group list-group-flush w-50" *ngFor="let loc of BusLocation">
+            <div class="w-50 m-auto my-4">
+                <img alt="Map" class="h-500px me-15" src="https://maps.rmtsbus.in/?lat={{loc.Latitude}}&amp;lon={{loc.Longitude}}">
+            </div>
         </div>
     </div>
 </div>
