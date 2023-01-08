@@ -1,26 +1,358 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">RMTS</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" routerLink="./Bus">Bus</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" routerLink="./BusStop">BusStop</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<div id="kt_app_body" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true"
+  data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
+  data-kt-app-sidebar-push-footer="true" data-kt-app-aside-enabled="true" data-kt-app-aside-fixed="true"
+  data-kt-app-aside-push-header="true" data-kt-app-aside-push-toolbar="true" data-kt-app-aside-push-footer="true"
+  class="app-default">
+  <!--begin::Theme mode setup on page load-->
+  <script>var defaultThemeMode = "light"; var themeMode; if (document.documentElement) { if (document.documentElement.hasAttribute("data-theme-mode")) { themeMode = document.documentElement.getAttribute("data-theme-mode"); } else { if (localStorage.getItem("data-theme") !== null) { themeMode = localStorage.getItem("data-theme"); } else { themeMode = defaultThemeMode; } } if (themeMode === "system") { themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light"; } document.documentElement.setAttribute("data-theme", themeMode); }</script>
+  <!--end::Theme mode setup on page load-->
+  <!--begin::App-->
+  <div class="d-flex flex-column flex-root app-root" id="kt_app_root">
+    <!--begin::Page-->
+    <div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+      <!--begin::Wrapper-->
+      <div class="w-75 m-auto flex-column flex-row-fluid mt-10" id="kt_app_wrapper">
+        <!--begin::Main-->
+        <div class="app-main flex-column flex-row-fluid pt-0" id="kt_app_main">
+          <!--begin::Content wrapper-->
+          <div class="d-flex flex-column flex-column-fluid">
+            <!--begin::Content-->
+            <div id="kt_app_content" class="app-content flex-column-fluid pt-0">
+              <!--begin::Content container-->
+              <div id="kt_app_content_container" class="app-container container-fluid">
+                
+                <router-outlet></router-outlet>
 
-<router-outlet></router-outlet>
+              </div>
+              <!--end::Content container-->
+            </div>
+            <!--end::Content-->
+          </div>
+          <!--end::Content wrapper-->
+        </div>
+        <!--end:::Main-->
+        
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <!--end::Page-->
+  </div>
+  <!--end::App-->
+
+  <!--begin::App layout builder-->
+  <div id="kt_app_layout_builder" class="bg-body" data-kt-drawer="true" data-kt-drawer-name="app-settings"
+    data-kt-drawer-activate="true" data-kt-drawer-overlay="true" data-kt-drawer-width="{default:'300px', 'lg': '380px'}"
+    data-kt-drawer-direction="end" data-kt-drawer-toggle="#kt_app_layout_builder_toggle"
+    data-kt-drawer-close="#kt_app_layout_builder_close">
+    <!--begin::Card-->
+    <div class="card border-0 shadow-none rounded-0 w-100">
+      <!--begin::Card header-->
+      <div
+        class="card-header bgi-position-y-bottom bgi-position-x-end bgi-size-cover bgi-no-repeat rounded-0 border-0 py-4"
+        id="kt_app_layout_builder_header" style="background-image:url('assets/media/misc/layout/header-bg.jpg')">
+        <!--begin::Card title-->
+        <h3 class="card-title fs-3 fw-bold text-white flex-column m-0">Keen Builder
+          <small class="text-white opacity-50 fs-7 fw-semibold pt-1">Get your product deeply
+            customized</small>
+        </h3>
+        <!--end::Card title-->
+        <!--begin::Card toolbar-->
+        <div class="card-toolbar">
+          <button type="button"
+            class="btn btn-sm btn-icon bg-white bg-opacity-25 btn-color-white p-0 w-20px h-20px rounded-1"
+            id="kt_app_layout_builder_close">
+            <!--begin::Svg Icon | path: icons/duotune/arrows/arr061.svg-->
+            <span class="svg-icon svg-icon-3">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect opacity="0.5" x="6" y="17.3137" width="16" height="2" rx="1" transform="rotate(-45 6 17.3137)"
+                  fill="currentColor" />
+                <rect x="7.41422" y="6" width="16" height="2" rx="1" transform="rotate(45 7.41422 6)"
+                  fill="currentColor" />
+              </svg>
+            </span>
+            <!--end::Svg Icon-->
+          </button>
+        </div>
+        <!--end::Card toolbar-->
+      </div>
+      <!--end::Card header-->
+      <!--begin::Card body-->
+      <div class="card-body position-relative" id="kt_app_layout_builder_body">
+        <!--begin::Content-->
+        <div id="kt_app_settings_content" class="position-relative scroll-y me-n5 pe-5" data-kt-scroll="true"
+          data-kt-scroll-height="auto" data-kt-scroll-wrappers="#kt_app_layout_builder_body"
+          data-kt-scroll-dependencies="#kt_app_layout_builder_header, #kt_app_layout_builder_footer"
+          data-kt-scroll-offset="5px">
+          <!--begin::Form-->
+          <form class="form" method="POST" id="kt_app_layout_builder_form"
+            action="https://preview.keenthemes.com/keen/demo2/index.php">
+            <input type="hidden" id="kt_app_layout_builder_action" name="layout-builder[action]" />
+            <!--begin::Card body-->
+            <div class="card-body p-0">
+              <!--begin::Form group-->
+              <div class="form-group">
+                <!--begin::Heading-->
+                <div class="mb-6">
+                  <h4 class="fw-bold text-dark">Theme Mode</h4>
+                  <div class="fw-semibold text-muted fs-7 d-block lh-1">Enjoy Dark & Light modes.
+                    <a class="fw-semibold"
+                      href="https://preview.keenthemes.com/html/keen/docs/getting-started/dark-mode" target="_blank">See
+                      docs</a>
+                  </div>
+                </div>
+                <!--end::Heading-->
+                <!--begin::Options-->
+                <div class="row" data-kt-buttons="true" data-kt-buttons-target=".form-check-image,.form-check-input">
+                  <!--begin::Col-->
+                  <div class="col-6">
+                    <!--begin::Option-->
+                    <label class="form-check-image form-check-success">
+                      <!--begin::Image-->
+                      <div class="form-check-wrapper">
+                        <img src="assets/media/misc/layout/demo2-light.png" class="mw-100" alt="" />
+                      </div>
+                      <!--end::Image-->
+                      <!--begin::Check-->
+                      <div class="form-check form-check-custom form-check-solid form-check-sm form-check-success">
+                        <input class="form-check-input" type="radio" value="light" name="theme_mode"
+                          id="kt_layout_builder_theme_mode_light" />
+                        <!--begin::Label-->
+                        <div class="form-check-label text-gray-700">Light</div>
+                        <!--end::Label-->
+                      </div>
+                      <!--end::Check-->
+                    </label>
+                    <!--end::Option-->
+                  </div>
+                  <!--end::Col-->
+                  <!--begin::Col-->
+                  <div class="col-6">
+                    <!--begin::Option-->
+                    <label class="form-check-image form-check-success">
+                      <!--begin::Image-->
+                      <div class="form-check-wrapper">
+                        <img src="assets/media/misc/layout/demo2-dark.png" class="mw-100" alt="" />
+                      </div>
+                      <!--end::Image-->
+                      <!--begin::Check-->
+                      <div class="form-check form-check-custom form-check-solid form-check-sm form-check-success">
+                        <input class="form-check-input" type="radio" value="dark" name="theme_mode"
+                          id="kt_layout_builder_theme_mode_dark" />
+                        <!--begin::Label-->
+                        <div class="form-check-label text-gray-700">Dark</div>
+                        <!--end::Label-->
+                      </div>
+                      <!--end::Check-->
+                    </label>
+                    <!--end::Option-->
+                  </div>
+                  <!--end::Col-->
+                </div>
+                <!--end::Options-->
+              </div>
+              <!--end::Form group-->
+              <!--begin::Separator-->
+              <div class="separator separator-dashed my-5"></div>
+              <!--end::Separator-->
+              <!--begin::Form group-->
+              <div class="form-group d-flex flex-stack">
+                <!--begin::Heading-->
+                <div class="d-flex flex-column">
+                  <h4 class="fw-bold text-dark">RTL Mode</h4>
+                  <div class="fs-7 fw-semibold text-muted">Change Language Direction.
+                    <a class="fw-semibold" href="https://preview.keenthemes.com/html/keen/docs/getting-started/rtl"
+                      target="_blank">See docs</a>
+                  </div>
+                </div>
+                <!--end::Heading-->
+                <!--begin::Option-->
+                <div class="d-flex justify-content-end">
+                  <!--begin::Check-->
+                  <div class="form-check form-check-solid form-check-custom form-check-success form-switch">
+                    <input type="hidden" value="false" name="layout-builder[layout][app][general][rtl]" />
+                    <input class="form-check-input w-45px h-30px" type="checkbox" value="true"
+                      name="layout-builder[layout][app][general][rtl]" id="kt_builder_rtl" />
+                    <!--begin::Label-->
+                    <label class="form-check-label" for="kt_builder_rtl"></label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                </div>
+                <!--end::Option-->
+              </div>
+              <!--end::Form group-->
+              <!--begin::Separator-->
+              <div class="separator separator-dashed my-5"></div>
+              <!--end::Separator-->
+              <!--begin::Form group-->
+              <div class="form-group">
+                <!--begin::Heading-->
+                <div class="d-flex flex-column mb-4">
+                  <h4 class="fw-bold text-dark">Width Mode</h4>
+                  <div class="fs-7 fw-semibold text-muted">Page width options</div>
+                </div>
+                <!--end::Heading-->
+                <!--begin::Options-->
+                <div class="d-flex">
+                  <!--begin::Check-->
+                  <div class="form-check form-check-custom form-check-success form-check-solid form-check-sm me-5">
+                    <input class="form-check-input" type="radio" checked="checked" value="default"
+                      id="kt_builder_page_width_default" name="layout-builder[layout][app][general][page-width]" />
+                    <!--begin::Label-->
+                    <label class="form-check-label text-gray-700 fw-bold text-nowrap"
+                      for="kt_builder_page_width_default">Default</label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                  <!--begin::Check-->
+                  <div class="form-check form-check-custom form-check-success form-check-solid form-check-sm me-5">
+                    <input class="form-check-input" type="radio" value="fluid" id="kt_builder_page_width_fluid"
+                      name="layout-builder[layout][app][general][page-width]" />
+                    <!--begin::Label-->
+                    <label class="form-check-label text-gray-700 fw-bold text-nowrap"
+                      for="kt_builder_page_width_fluid">Fluid</label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                  <!--begin::Check-->
+                  <div class="form-check form-check-custom form-check-success form-check-solid form-check-sm me-5">
+                    <input class="form-check-input" type="radio" value="fixed" id="kt_builder_page_width_fixed"
+                      name="layout-builder[layout][app][general][page-width]" />
+                    <!--begin::Label-->
+                    <label class="form-check-label text-gray-700 fw-bold text-nowrap"
+                      for="kt_builder_page_width_fixed">Fixed</label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                </div>
+                <!--end::Options-->
+              </div>
+              <!--end::Form group-->
+              <!--begin::Separator-->
+              <div class="separator separator-dashed my-5"></div>
+              <!--end::Separator-->
+              <!--begin::Form group-->
+              <div class="form-group">
+                <!--begin::Heading-->
+                <div class="d-flex flex-column mb-4">
+                  <h4 class="fw-bold text-dark">Menu Icon</h4>
+                  <div class="fs-7 fw-semibold text-muted">Sidebar menu icon options</div>
+                </div>
+                <!--end::Heading-->
+                <!--begin::Options-->
+                <div class="d-flex">
+                  <!--begin::Check-->
+                  <div class="form-check form-check-custom form-check-success form-check-solid form-check-sm me-5">
+                    <input class="form-check-input" type="radio" checked="checked" value="font"
+                      id="kt_builder_icon_font" name="layout-builder[layout][app][sidebar][default][menu][icon-type]" />
+                    <!--begin::Label-->
+                    <label class="form-check-label text-gray-700 fw-bold text-nowrap" for="kt_builder_icon_font">Font
+                      Icons</label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                  <!--begin::Check-->
+                  <div class="form-check form-check-custom form-check-success form-check-solid form-check-sm me-5">
+                    <input class="form-check-input" type="radio" value="svg" id="kt_builder_icon_svg"
+                      name="layout-builder[layout][app][sidebar][default][menu][icon-type]" />
+                    <!--begin::Label-->
+                    <label class="form-check-label text-gray-700 fw-bold text-nowrap" for="kt_builder_icon_svg">SVG
+                      Duotone</label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                </div>
+                <!--end::Options-->
+              </div>
+              <!--end::Form group-->
+              <!--begin::Separator-->
+              <div class="separator separator-dashed my-5"></div>
+              <!--end::Separator-->
+              <!--begin::Form group-->
+              <div class="form-group d-flex flex-stack">
+                <!--begin::Heading-->
+                <div class="d-flex flex-column">
+                  <h4 class="fw-bold text-dark">Aside</h4>
+                  <div class="fs-7 fw-semibold text-muted">Display aside penel.
+                    <a href="layout-builder.html" class="fw-semibold text-primary">More layout
+                      options</a>
+                  </div>
+                </div>
+                <!--end::Heading-->
+                <!--begin::Option-->
+                <div class="d-flex justify-content-end">
+                  <!--begin::Check-->
+                  <div class="form-check form-check-solid form-check-custom form-check-success form-switch">
+                    <input type="hidden" value="false" name="layout-builder[layout][app][aside][display]" />
+                    <input class="form-check-input w-45px h-30px" type="checkbox" checked="checked" value="true"
+                      name="layout-builder[layout][app][aside][display]" id="kt_builder_aside" />
+                    <!--begin::Label-->
+                    <label class="form-check-label" for="kt_builder_aside"></label>
+                    <!--end::Label-->
+                  </div>
+                  <!--end::Check-->
+                </div>
+                <!--end::Option-->
+              </div>
+              <!--end::Form group-->
+            </div>
+            <!--end::Card body-->
+          </form>
+          <!--end::Form-->
+        </div>
+        <!--end::Content-->
+      </div>
+      <!--end::Card body-->
+      <!--begin::Card footer-->
+      <div class="card-footer border-0 d-flex gap-3 pb-9 pt-0" id="kt_app_layout_builder_footer">
+        <button type="button" id="kt_app_layout_builder_preview" class="btn btn-primary flex-grow-1 fw-semibold">
+          <!--begin::Indicator label-->
+          <span class="indicator-label">Preview</span>
+          <!--end::Indicator label-->
+          <!--begin::Indicator progress-->
+          <span class="indicator-progress">Please wait...
+            <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+          <!--end::Indicator progress-->
+        </button>
+        <button type="button" id="kt_app_layout_builder_reset" class="btn btn-light flex-grow-1 fw-semibold">
+          <!--begin::Indicator label-->
+          <span class="indicator-label">Reset</span>
+          <!--end::Indicator label-->
+          <!--begin::Indicator progress-->
+          <span class="indicator-progress">Please wait...
+            <span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+          <!--end::Indicator progress-->
+        </button>
+      </div>
+      <!--end::Card footer-->
+    </div>
+    <!--end::Card-->
+  </div>
+  <!--end::App layout builder-->
+  
+  <!--begin::App settings toggle-->
+  <button id="kt_app_layout_builder_toggle" class="btn btn-dark app-layout-builder-toggle lh-1 py-4"
+    title="Keen Builder" data-bs-custom-class="tooltip-inverse" data-bs-toggle="tooltip" data-bs-placement="left"
+    data-bs-dismiss="click" data-bs-trigger="hover">
+    <i class="fonticon-equalizer fs-4 me-1"></i>Customize</button>
+  <!--end::App settings toggle--> 
+
+  <!--begin::Scrolltop-->
+  <div id="kt_scrolltop" class="scrolltop" data-kt-scrolltop="true">
+    <!--begin::Svg Icon | path: icons/duotune/arrows/arr066.svg-->
+    <span class="svg-icon">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect opacity="0.5" x="13" y="6" width="13" height="2" rx="1" transform="rotate(90 13 6)" fill="currentColor" />
+        <path
+          d="M12.5657 8.56569L16.75 12.75C17.1642 13.1642 17.8358 13.1642 18.25 12.75C18.6642 12.3358 18.6642 11.6642 18.25 11.25L12.7071 5.70711C12.3166 5.31658 11.6834 5.31658 11.2929 5.70711L5.75 11.25C5.33579 11.6642 5.33579 12.3358 5.75 12.75C6.16421 13.1642 6.83579 13.1642 7.25 12.75L11.4343 8.56569C11.7467 8.25327 12.2533 8.25327 12.5657 8.56569Z"
+          fill="currentColor" />
+      </svg>
+    </span>
+    <!--end::Svg Icon-->
+  </div>
+  <!--end::Scrolltop-->
+  
+  <!--begin::Javascript-->
+
+</div>
+
