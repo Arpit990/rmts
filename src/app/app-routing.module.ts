@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { BusDetailComponent } from './components/bus-detail/bus-detail.component';
 import { BusListComponent } from './components/bus-list/bus-list.component';
 import { BusStopListComponent } from './components/bus-stop-list/bus-stop-list.component';
+import { BusStopTimeComponent } from './components/bus-stop-time/bus-stop-time.component';
 import { HomeComponent } from './components/home/home.component';
 
 const routes: Routes = [
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'BusDetail/:id',
     component: BusDetailComponent
+  },
+  {
+    path: 'BusTime/:id',
+    component: BusStopTimeComponent
   }
 ];
 
