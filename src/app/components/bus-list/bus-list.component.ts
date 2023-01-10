@@ -24,4 +24,15 @@ export class BusListComponent implements OnInit {
         this.TotalBus = this.BusList.length;
     });
   }
+
+  searchBus(e:any) {
+    console.log(e.target.value)
+    if(e.target.value != null && e.target.value != undefined && e.target.value != '') {
+      this.BusList = this.BusList.filter((obj:any) => obj.busNo.startsWith(e.target.value))
+      this.TotalBus = this.BusList.length;
+    }
+    else {
+      this.getBusList();
+    }
+  }
 }
