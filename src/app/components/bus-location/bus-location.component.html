@@ -1,0 +1,52 @@
+<div class="row">
+    <div class="col-xl-6 col-md-8 col-sm-12 m-auto">
+
+        <div class="d-flex align-items-center cursor-pointer mb-4" routerLink="../../{{id}}">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42a.996.996 0 0 0-1.41 0l-6.59 6.59a.996.996 0 0 0 0 1.41l6.59 6.59a.996.996 0 1 0 1.41-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" />
+            </svg>
+            <span class="ms-1 fs-5"> Back </span>
+        </div>
+
+        <div class="d-flex justify-content-between form-check form-switch form-check-custom form-check-solid px-5">
+            <span class="fs-3" for="flexSwitchDefault">
+                Auto refresh the bus location
+            </span>
+            <input class="form-check-input" type="checkbox" value="" id="flexSwitchDefault"/>
+        </div>
+
+        <div *ngFor="let loc of BusLocation">
+            <div class="card shadow-sm rounded-1 my-6 border-gray-500 border-dashed">
+                <div class="card-header">
+                    <div class="d-flex flex-stack">
+                        <!--begin::Symbol-->
+                        <div class="symbol symbol-40px me-4">
+                            <div class="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">
+                                
+                            </div>
+                        </div>
+                        <!--end::Symbol-->
+                        <!--begin::Section-->
+                        <div class="d-flex align-items-center flex-row-fluid flex-wrap">
+                            <!--begin:Author-->
+                            <div class="flex-grow-1 me-2">
+                                <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-semibold">
+                                    
+                                </a>
+                                <span class="text-muted d-block fs-7"> Last updated at {{ loc.Lastdate | date:'shortTime' }} </span>
+                            </div>
+                            <!--end:Author-->
+                        </div>
+                        <!--end::Section-->
+                    </div>
+                </div>
+                <div class="card-body p-1">
+                    <img alt="Map" class="w-100"
+                        src="https://maps.rmtsbus.in/?lat={{loc.Latitude}}&amp;lon={{loc.Longitude}}">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

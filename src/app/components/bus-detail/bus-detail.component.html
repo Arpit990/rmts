@@ -10,7 +10,8 @@
         </div>
 
         <!--begin::Alert-->
-        <div class="alert bg-light-secondary d-flex flex-column ribbon ribbon-top ribbon-vertical py-10 px-10 px-lg-20 mb-10">
+        <div
+            class="alert bg-light-secondary d-flex flex-column ribbon ribbon-top ribbon-vertical py-10 px-10 px-lg-20 mb-10">
             <div class="ribbon-label bg-dark bg-opacity-75">
                 <span class="fs-4 fw-bold">{{BusDetail?.busNo}} </span>
             </div>
@@ -51,14 +52,14 @@
                             <!--begin::Symbol-->
                             <div class="symbol symbol-40px me-4">
                                 <span class="symbol-label">
-                                    <i class="fonticon-location fs-1 p-0 text-gray-600"></i>
+                                    <i class="bi bi-geo-alt fs-2 p-0 text-gray-600"></i>
                                 </span>
                             </div>
                             <!--end::Symbol-->
                             <!--begin::Content-->
                             <div class="me-5">
-                                <a routerLink="../../BusTime/{{ BusDetail?.busNo }}"
-                                    class="text-gray-800 fw-bold text-hover-primary fs-6">View all bus stops</a>
+                                <a routerLink="../location/{{ BusDetail?.busNo }}"
+                                    class="text-gray-800 fw-bold text-hover-primary fs-6">Bus live location</a>
                             </div>
                             <!--end::Content-->
                         </div>
@@ -93,8 +94,7 @@
                             <!--end::Symbol-->
                             <!--begin::Content-->
                             <div class="me-5">
-                                <a href="#" class="text-gray-800 fw-bold text-hover-primary fs-6">View all departure
-                                    time</a>
+                                <a routerLink="../../BusTime/{{ BusDetail?.busNo }}" class="text-gray-800 fw-bold text-hover-primary fs-6">Bus time</a>
                             </div>
                             <!--end::Content-->
                         </div>
@@ -116,38 +116,90 @@
         </div>
         <!--end::Alert-->
 
-        <div *ngFor="let loc of BusLocation">
-            <div class="card shadow-sm rounded-1 my-6 border-gray-500 border-dashed">
-                <div class="card-header">
-                    <div class="d-flex flex-stack">
-                        <!--begin::Symbol-->
-                        <div class="symbol symbol-40px me-4">
-                            <div class="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">
-                                {{ BusDetail.busNo }}
-                            </div>
+
+        <div class="d-flex flex-column pb-5 px-0">
+            <ul class="d-flex justify-content-around justify-content-lg-start nav nav-pills nav-pills-custom mb-3" role="tablist">
+                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
+                    <a class="nav-link btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2 active"
+                        data-bs-toggle="pill" id="kt_charts_widget_10_tab_1" href="#kt_charts_widget_10_tab_content_1"
+                        aria-selected="false" role="tab" tabindex="-1">
+                        <div class="nav-icon mb-3">
+                            <i class="bi bi-geo-alt fs-1 p-0"></i>
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Section-->
-                        <div class="d-flex align-items-center flex-row-fluid flex-wrap">
-                            <!--begin:Author-->
-                            <div class="flex-grow-1 me-2">
-                                <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-semibold">
-                                    {{ BusDetail.source }} to {{ BusDetail.destination }}
-                                </a>
-                                <span class="text-muted d-block fs-7"> Last updated at {{ loc.Lastdate | date
-                                    :'shortTime' }} </span>
-                            </div>
-                            <!--end:Author-->
+                        <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">STOP</span>
+                        <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
+                    <!--begin::Link-->
+                    <a class="nav-link btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2"
+                        data-bs-toggle="pill" id="kt_charts_widget_10_tab_2" href="#kt_charts_widget_10_tab_content_2"
+                        aria-selected="false" role="tab" tabindex="-1">
+                        <!--begin::Icon-->
+                        <div class="nav-icon mb-3">
+                            <i class="fonticon-truck fs-1 p-0"></i>
                         </div>
-                        <!--end::Section-->
+                        <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">SRC</span>
+                        <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+                        <!--end::Bullet-->
+                    </a>
+                    <!--end::Link-->
+                </li>
+                <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
+                    <!--begin::Link-->
+                    <a class="nav-link btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2"
+                        data-bs-toggle="pill" id="kt_charts_widget_10_tab_3" href="#kt_charts_widget_10_tab_content_3"
+                        aria-selected="false" role="tab" tabindex="-1">
+                        <!--begin::Icon-->
+                        <div class="nav-icon mb-3">
+                            <i class="fonticon-offline fs-1 p-0"></i>
+                        </div>
+                        <!--end::Icon-->
+                        <!--begin::Title-->
+                        <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">DESTN</span>
+                        <!--end::Title-->
+                        <!--begin::Bullet-->
+                        <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
+                        <!--end::Bullet-->
+                    </a>
+                    <!--end::Link-->
+                </li>
+            </ul>
+            <!--end::Nav-->
+            <!--begin::Tab Content-->
+            <div class="tab-content ps-4 pe-6">
+                <!--begin::Tap pane-->
+                <div class="tab-pane fade active show" id="kt_charts_widget_10_tab_content_1" role="tabpanel"
+                    aria-labelledby="#kt_charts_widget_10_tab_1">
+                    <div class="d-flex flex-column" *ngFor="let stop of BusDetail.routes">
+                        <li class="d-flex align-items-center py-2">
+                            <span class="bullet bg-info me-3"></span> {{ stop }}
+                        </li>
                     </div>
                 </div>
-                <div class="card-body p-1">
-                    <img alt="Map" class="w-100"
-                        src="https://maps.rmtsbus.in/?lat={{loc.Latitude}}&amp;lon={{loc.Longitude}}">
+                <!--end::Tap pane-->
+                <!--begin::Tap pane-->
+                <div class="tab-pane fade" id="kt_charts_widget_10_tab_content_2" role="tabpanel"
+                    aria-labelledby="#kt_charts_widget_10_tab_2">
+                    <ul class="list-group list-group-flush" *ngFor="let sourceTime of BusDetail.dapartureFromSource">
+                        <li class="list-group-item"> {{ sourceTime }} </li>
+                    </ul>
+                </div>
+                <!--end::Tap pane-->
+                <!--begin::Tap pane-->
+                <div class="tab-pane fade" id="kt_charts_widget_10_tab_content_3" role="tabpanel"
+                    aria-labelledby="#kt_charts_widget_10_tab_3">
+                    <ul class="list-group list-group-flush" *ngFor="let destTime of BusDetail.departureFromDest">
+                        <li class="list-group-item"> {{ destTime }} </li>
+                    </ul>
                 </div>
             </div>
+            <!--end::Tab Content-->
         </div>
+
+
+        
     </div>
 </div>
 

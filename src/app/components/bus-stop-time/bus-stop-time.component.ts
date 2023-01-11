@@ -30,6 +30,7 @@ export class BusStopTimeComponent implements OnInit {
     this.rmtsService.getBusTimeFromJSON().subscribe(data => {
       this.busTime = data;
       this.routeUp = this.busTime.filter((obj:any) => obj.BusNo == `R ${busNo}` && obj.Route == this.up)
+      this.routeDown = this.busTime.filter((obj:any) => obj.BusNo == `R ${busNo}` && obj.Route == this.down)
     })
   }
 }

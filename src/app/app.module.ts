@@ -9,6 +9,7 @@ import { BusDetailComponent } from './components/bus-detail/bus-detail.component
 import { GraphqlModule } from './graphql.module';
 import { HomeComponent } from './components/home/home.component';
 import { BusStopTimeComponent } from './components/bus-stop-time/bus-stop-time.component';
+import { BusLocationComponent } from './components/bus-location/bus-location.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { BusStopTimeComponent } from './components/bus-stop-time/bus-stop-time.c
     BusStopListComponent,
     BusDetailComponent,
     BusStopTimeComponent,
+    BusLocationComponent,
     HomeComponent
   ],
   imports: [

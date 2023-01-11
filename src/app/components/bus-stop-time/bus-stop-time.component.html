@@ -22,45 +22,116 @@
         </div>
         <!--end::List widget 2-->
 
-        <div class="accordion accordion-icon-toggle mt-5 mb-5">
-            <div *ngFor="let data of routeUp;let i=index;">
-                <!--begin::Item-->
-                <div class="my-4">
-                    <!--begin::Header-->
-                    <div class="accordion-header d-flex flex-stack collapsed px-1" data-bs-toggle="collapse"
-                        [attr.data-bs-target]="'#accordion_' + i" aria-expanded="false">
-                        <h3 class="text-primary opacity-75-hover fs-6 fw-semibold mb-0 lh-0"> {{ data.BusStop }} </h3>
-                        <span class="accordion-icon">
-                            <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
-                            <span class="svg-icon svg-icon-4">
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1"
-                                        transform="rotate(-180 18 13)" fill="currentColor"></rect>
-                                    <path
-                                        d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z"
-                                        fill="currentColor"></path>
-                                </svg>
-                            </span>
-                            <!--end::Svg Icon-->
-                        </span>
+
+        <div class="card-body mt-5 px-0">
+            <!--begin::Nav-->
+            <ul class="nav d-flex justify-content-evenly mb-3 mx-9" role="tablist">
+                <li class="nav-item mb-3" role="presentation">
+                    <!--begin::Link-->
+                    <a class="nav-link btn btn-flex flex-center btn-active-danger btn-color-gray-600 btn-active-color-white rounded-2 active"
+                        data-bs-toggle="tab" id="kt_charts_widget_33_tab_1" href="#kt_charts_widget_33_tab_content_1"
+                        aria-selected="true" role="tab">Up Route</a>
+                    <!--end::Link-->
+                </li>
+                <li class="nav-item mb-3" role="presentation">
+                    <!--begin::Link-->
+                    <a class="nav-link btn btn-flex flex-center btn-active-danger btn-color-gray-600 btn-active-color-white rounded-2"
+                        data-bs-toggle="tab" id="kt_charts_widget_33_tab_2" href="#kt_charts_widget_33_tab_content_2"
+                        aria-selected="false" role="tab" tabindex="-1">Down Route</a>
+                    <!--end::Link-->
+                </li>
+            </ul>
+            <div class="tab-content mt-3">
+                <div class="tab-pane fade active show" id="kt_charts_widget_33_tab_content_1" role="tabpanel"
+                    aria-labelledby="#kt_charts_widget_33_tab_1">
+                    <div class="accordion accordion-icon-toggle mt-5 mb-5">
+                        <div *ngFor="let data of routeUp;let i=index;">
+                            <!--begin::Item-->
+                            <div class="my-4">
+                                <!--begin::Header-->
+                                <div class="accordion-header d-flex flex-stack collapsed px-1" data-bs-toggle="collapse"
+                                    [attr.data-bs-target]="'#accordion_' + i" aria-expanded="false">
+                                    <h3 class="text-primary opacity-75-hover fs-6 fw-semibold mb-0 lh-0"> {{
+                                        data.BusStop }} </h3>
+                                    <span class="accordion-icon">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
+                                        <span class="svg-icon svg-icon-4">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1"
+                                                    transform="rotate(-180 18 13)" fill="currentColor"></rect>
+                                                <path
+                                                    d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </div>
+                                <!--end::Header-->
+                                <!--begin::Body-->
+                                <div id="{{ 'accordion_' + i}}" class="row fs-6 px-5 mt-3 collapse">
+                                    <span class="col-sm-3 col-md-2 col-xl-2" *ngFor="let t of temp;let i=index;">
+                                        <span *ngIf="data[t] != null">{{ data[t].split(":00").join("") }}</span>
+                                    </span>
+                                </div>
+                                <!--end::Body-->
+                            </div>
+                            <!--end::Item-->
+                            <!--begin::Separator-->
+                            <div class="separator separator-dashed"></div>
+                            <!--end::Separator-->
+                        </div>
+
+
                     </div>
-                    <!--end::Header-->
-                    <!--begin::Body-->
-                    <div id="{{ 'accordion_' + i}}" class="row fs-6 px-5 mt-3 collapse">
-                        <span class="col-2" *ngFor="let t of temp;let i=index;">
-                           <span *ngIf="data[t] != null">{{ data[t] }}</span>
-                        </span>
-                    </div>
-                    <!--end::Body-->
                 </div>
-                <!--end::Item-->
-                <!--begin::Separator-->
-                <div class="separator separator-dashed"></div>
-                <!--end::Separator-->
+                <div class="tab-pane fade" id="kt_charts_widget_33_tab_content_2" role="tabpanel"
+                    aria-labelledby="#kt_charts_widget_33_tab_2">
+                    <div class="accordion accordion-icon-toggle mt-5 mb-5">
+                        <div *ngFor="let data of routeDown;let i=index;">
+                            <!--begin::Item-->
+                            <div class="my-4">
+                                <!--begin::Header-->
+                                <div class="accordion-header d-flex flex-stack collapsed px-1" data-bs-toggle="collapse"
+                                    [attr.data-bs-target]="'#accordion_' + i" aria-expanded="false">
+                                    <h3 class="text-primary opacity-75-hover fs-6 fw-semibold mb-0 lh-0"> {{
+                                        data.BusStop }} </h3>
+                                    <span class="accordion-icon">
+                                        <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
+                                        <span class="svg-icon svg-icon-4">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <rect opacity="0.5" x="18" y="13" width="13" height="2" rx="1"
+                                                    transform="rotate(-180 18 13)" fill="currentColor"></rect>
+                                                <path
+                                                    d="M15.4343 12.5657L11.25 16.75C10.8358 17.1642 10.8358 17.8358 11.25 18.25C11.6642 18.6642 12.3358 18.6642 12.75 18.25L18.2929 12.7071C18.6834 12.3166 18.6834 11.6834 18.2929 11.2929L12.75 5.75C12.3358 5.33579 11.6642 5.33579 11.25 5.75C10.8358 6.16421 10.8358 6.83579 11.25 7.25L15.4343 11.4343C15.7467 11.7467 15.7467 12.2533 15.4343 12.5657Z"
+                                                    fill="currentColor"></path>
+                                            </svg>
+                                        </span>
+                                        <!--end::Svg Icon-->
+                                    </span>
+                                </div>
+                                <!--end::Header-->
+                                <!--begin::Body-->
+                                <div id="{{ 'accordion_' + i}}" class="row fs-6 px-5 mt-3 collapse">
+                                    <span class="col-sm-3 col-md-2 col-xl-2" *ngFor="let t of temp;let i=index;">
+                                        <span *ngIf="data[t] != null">{{ data[t].split(":00 ").join("") }}</span>
+                                    </span>
+                                </div>
+                                <!--end::Body-->
+                            </div>
+                            <div class="separator separator-dashed"></div>
+                            <!--end::Separator-->
+                        </div>
+                    </div>
+                </div>
             </div>
-
-
+            <!--end::Tab Content-->
         </div>
+
+
+
+
     </div>
 </div>
