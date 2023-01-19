@@ -10,6 +10,7 @@ import { GraphqlModule } from './graphql.module';
 import { HomeComponent } from './components/home/home.component';
 import { BusStopTimeComponent } from './components/bus-stop-time/bus-stop-time.component';
 import { BusLocationComponent } from './components/bus-location/bus-location.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { BusLocationComponent } from './components/bus-location/bus-location.com
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    GraphqlModule
+    GraphqlModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

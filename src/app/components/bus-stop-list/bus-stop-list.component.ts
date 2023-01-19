@@ -25,6 +25,17 @@ export class BusStopListComponent implements OnInit {
     })
   }
 
+  searchBusStop(e:any) {
+    console.log(e.target.value)
+    if(e.target.value != null && e.target.value != undefined && e.target.value != '') {
+      this.BusStopList = this.BusStopList.filter((x:any) => x.startsWith(e.target.value))
+      this.totalBusStop = this.BusStopList.length;
+    }
+    else {
+      this.getBusStopList();
+    }
+  }
+
   getBusByBusStop() {
 
   }
