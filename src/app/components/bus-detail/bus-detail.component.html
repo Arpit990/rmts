@@ -9,23 +9,16 @@
             <span class="ms-1 fs-5"> Back </span>
         </div>
 
-        <!--begin::Alert-->
         <div
-            class="alert bg-light-secondary d-flex flex-column ribbon ribbon-top ribbon-vertical py-10 px-10 px-lg-20 mb-10">
+            class="alert bg-light-secondary d-flex flex-column ribbon ribbon-top ribbon-vertical py-10 px-8 px-lg-12 mb-10">
             <div class="ribbon-label bg-dark bg-opacity-75">
                 <span class="fs-4 fw-bold">{{BusDetail?.busNo}} </span>
             </div>
-            <!--begin::Wrapper-->
             <div class="text-start">
-                <!--begin::Title-->
                 <div class="d-flex align-items-center mb-6">
-                    <!--begin::Bullet-->
                     <span
                         class="bullet bullet-vertical d-flex align-items-center min-h-70px mh-100 me-4 bg-success bg-opacity-50"></span>
-                    <!--end::Bullet-->
-                    <!--begin::Info-->
                     <div class="flex-grow-1 me-5">
-                        <!--begin::Time-->
                         <div class="text-gray-800 fw-semibold fs-2">
                             <span class="me-3"> {{ BusDetail?.source }}</span>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
@@ -35,24 +28,17 @@
                             </svg>
                             <span class="ms-1"> {{ BusDetail?.destination }} </span>
                         </div>
-                        <!--end::Time-->
-                        <!--begin::Description-->
                         <div class="text-gray-700 fw-semibold fs-6">{{ TotalBusStop }} Bus stops</div>
-                        <!--end::Description-->
                     </div>
-                    <!--end::Info-->
                 </div>
-                <!--end::Title-->
 
-                <!--begin::Content-->
-                <div class="text-dark">
+                <div class="card rounded-1 bg-light-secondary shadow-sm text-dark">
                     <div class="d-flex flex-stack">
-                        <!--begin::Section-->
                         <div class="d-flex align-items-center me-5">
-                            <!--begin::Symbol-->
-                            <div class="symbol symbol-40px me-4">
-                                <span class="symbol-label">
+                            <div class="symbol symbol-40px me-4 pulse pulse-dark">
+                                <span class="btn btn-icon btn-light symbol-label">
                                     <i class="bi bi-geo-alt fs-2 p-0 text-gray-600"></i>
+                                    <span class="pulse-ring"></span>
                                 </span>
                             </div>
                             <div class="me-5">
@@ -60,58 +46,39 @@
                                     class="text-gray-800 fw-bold text-hover-primary fs-6">Bus live location</a>
                             </div>
                         </div>
-                        <!--end::Section-->
                         <div class="text-gray-400 fw-bold fs-7 text-end">
-                            <!--begin::Number-->
                             <span class="text-gray-800 fw-bold fs-6 d-block pe-3">
                                 <i class="fa-solid fa-chevron-right"></i>
                             </span>
-                            <!--end::Number-->
                         </div>
-
                     </div>
                 </div>
-                <!--end::Content-->
 
-                <!--begin::Separator-->
                 <div class="separator separator-dashed border-dark opacity-25 my-3"></div>
-                <!--end::Separator-->
 
-                <div class="text-dark">
+                <div class="card rounded-1 bg-light-secondary shadow-sm text-dark">
                     <div class="d-flex flex-stack">
-                        <!--begin::Section-->
                         <div class="d-flex align-items-center me-5">
-                            <!--begin::Symbol-->
-                            <div class="symbol symbol-40px me-4">
+                            <div class="symbol symbol-40px me-4 pulse pulse-dark">
                                 <span class="symbol-label">
                                     <i class="bi bi-clock fs-2 p-0 text-gray-600"></i>
+                                    <span class="pulse-ring"></span>
                                 </span>
                             </div>
-                            <!--end::Symbol-->
-                            <!--begin::Content-->
                             <div class="me-5">
                                 <a routerLink="../../BusTime/{{ BusDetail?.busNo }}"
                                     class="text-gray-800 fw-bold text-hover-primary fs-6">Bus time</a>
                             </div>
-                            <!--end::Content-->
                         </div>
-                        <!--end::Section-->
                         <div class="text-gray-400 fw-bold fs-7 text-end">
-                            <!--begin::Number-->
                             <span class="text-gray-800 fw-bold fs-6 d-block pe-3">
                                 <i class="fa-solid fa-chevron-right"></i>
                             </span>
-                            <!--end::Number-->
                         </div>
-
                     </div>
                 </div>
-
             </div>
-            <!--end::Wrapper-->
         </div>
-        <!--end::Alert-->
-
 
         <div class="d-flex flex-column pb-5 px-0">
             <ul class="d-flex justify-content-around justify-content-lg-start nav nav-pills nav-pills-custom mb-3"
@@ -126,41 +93,31 @@
                         <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">STOP</span>
                         <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
                     </a>
-                    <!--end::Link-->
                 </li>
                 <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
-                    <!--begin::Link-->
                     <a class="nav-link rounded-2 btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2"
                         data-bs-toggle="pill" id="kt_charts_widget_10_tab_2" href="#kt_charts_widget_10_tab_content_2"
                         aria-selected="false" role="tab" tabindex="-1">
-                        <!--begin::Icon-->
                         <div class="nav-icon mb-3">
                             <i class="bi bi-arrow-up-circle fs-1 p-0"></i>
                         </div>
                         <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">SRC</span>
                         <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-                        <!--end::Bullet-->
                     </a>
-                    <!--end::Link-->
                 </li>
                 <li class="nav-item mb-3 me-3 me-lg-6" role="presentation">
-                    <!--begin::Link-->
                     <a class="nav-link rounded-2 btn btn-outline btn-flex btn-active-color-primary flex-column overflow-hidden w-80px h-85px pt-5 pb-2"
                         data-bs-toggle="pill" id="kt_charts_widget_10_tab_3" href="#kt_charts_widget_10_tab_content_3"
                         aria-selected="false" role="tab" tabindex="-1">
-                        <!--begin::Icon-->
                         <div class="nav-icon mb-3">
                             <i class="bi bi-arrow-down-circle fs-1 p-0"></i>
                         </div>
                         <span class="nav-text text-gray-800 fw-bold fs-6 lh-1">DESTN</span>
                         <span class="bullet-custom position-absolute bottom-0 w-100 h-4px bg-primary"></span>
-                        <!--end::Bullet-->
                     </a>
-                    <!--end::Link-->
                 </li>
             </ul>
             <div class="tab-content">
-                <!--begin::Tap pane-->
                 <div class="tab-pane fade active show" id="kt_charts_widget_10_tab_content_1" role="tabpanel"
                     aria-labelledby="#kt_charts_widget_10_tab_1">
                     <div class="card rounded-1">
@@ -174,7 +131,7 @@
                                         <span class="bullet bullet-dot me-4"></span> {{ stop }}
                                     </li>
                                 </div>
-                                <div class="d-flex align-items-senter">
+                                <div class="d-flex align-items-senter cursor-pointer" (click)="speak(stop)">
                                     <i class="bi bi-volume-up fs-3 p-0 text-gray-600"></i>
                                 </div>
                             </div>
@@ -196,15 +153,12 @@
                                     </li>
                                 </div>
                                 <div class="d-flex align-items-senter">
-                                    
                                 </div>
                             </div>
                             <div class="separator separator-dashed my-1"></div>
                         </div>
                     </div>
                 </div>
-                <!--end::Tap pane-->
-                <!--begin::Tap pane-->
                 <div class="tab-pane fade" id="kt_charts_widget_10_tab_content_3" role="tabpanel"
                     aria-labelledby="#kt_charts_widget_10_tab_3">
                     <div class="card rounded-1">
@@ -219,7 +173,7 @@
                                     </li>
                                 </div>
                                 <div class="d-flex align-items-senter">
-                                    
+
                                 </div>
                             </div>
                             <div class="separator separator-dashed my-1"></div>

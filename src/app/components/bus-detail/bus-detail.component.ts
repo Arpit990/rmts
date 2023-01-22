@@ -23,6 +23,15 @@ export class BusDetailComponent implements OnInit {
     this.getBusDetail(this.id)
   }
 
+  speak(word:any) {
+    let voices = window.speechSynthesis.getVoices();
+    let speech = new SpeechSynthesisUtterance()
+    speech.voice = voices[9];
+		speech.text = word;
+		speech.lang = "hi-IN";
+		speechSynthesis.speak(speech);
+  }
+
   getBusDetail(id: any) {
     this.rmtsService.getAllBus(id).subscribe((res: any) => {
       if (res.success)

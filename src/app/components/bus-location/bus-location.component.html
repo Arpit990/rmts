@@ -26,16 +26,12 @@
             <div class="card shadow-sm rounded-1 my-6 border-gray-500 border-dashed">
                 <div class="card-header">
                     <div class="d-flex flex-stack">
-                        <!--begin::Symbol-->
                         <div class="symbol symbol-40px me-4">
                             <div class="symbol-label fs-2 fw-semibold bg-dark text-inverse-dark">
                                 {{ BusDetail?.busNo }}
                             </div>
                         </div>
-                        <!--end::Symbol-->
-                        <!--begin::Section-->
                         <div class="d-flex align-items-center flex-row-fluid flex-wrap">
-                            <!--begin:Author-->
                             <div class="flex-grow-1 me-2">
                                 <a href="#" class="text-gray-800 text-hover-primary fs-6 fw-semibold">
                                     {{ BusDetail?.source }} to {{ BusDetail?.destination }}
@@ -43,9 +39,7 @@
                                 <span class="text-muted d-block fs-7"> Last updated at {{ loc.Lastdate |
                                     date:'shortTime' }} </span>
                             </div>
-                            <!--end:Author-->
                         </div>
-                        <!--end::Section-->
                     </div>
                 </div>
                 <div class="card-body p-1">

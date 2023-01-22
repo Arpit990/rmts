@@ -8,23 +8,14 @@
             </svg>
             <span class="ms-1 fs-5"> Back </span>
         </div>
-        <!--begin::List widget 2-->
         <div class="card-flush h-lg-100">
-            <!--begin::Header-->
             <div class="card-header mt-4">
-                <!--begin::Title-->
                 <h3 class="d-flex card-title align-items-start flex-column">
                     <span class="card-label fw-bold text-dark">Find your destination stop</span>
                 </h3>
-                <!--end::Title-->
             </div>
-            <!--end::Header-->
         </div>
-        <!--end::List widget 2-->
-
-
         <div class="card-body mt-5 px-0">
-            <!--begin::Nav-->
             <div class="row text-center" role="tablist">
                 <div class="col-6" role="presentation">
                     <a class="w-100 btn btn-active-info btn-color-gray-600 btn-active-color-white rounded-1 active"
@@ -48,9 +39,7 @@
                     aria-labelledby="#kt_charts_widget_33_tab_1">
                     <div class="accordion accordion-icon-toggle mt-5 mb-5">
                         <div *ngFor="let data of routeUp;let i=index;">
-                            <!--begin::Item-->
                             <div class="my-4">
-                                <!--begin::Header-->
                                 <div class="accordion-header d-flex flex-stack collapsed px-1" data-bs-toggle="collapse"
                                     [attr.data-bs-target]="'#accordion_' + i" aria-expanded="false">
                                     <h3 class="text-primary opacity-75-hover fs-6 fw-semibold mb-0 lh-0"> {{
@@ -67,34 +56,23 @@
                                                     fill="currentColor"></path>
                                             </svg>
                                         </span>
-                                        <!--end::Svg Icon-->
                                     </span>
                                 </div>
-                                <!--end::Header-->
-                                <!--begin::Body-->
                                 <div id="{{ 'accordion_' + i}}" class="row fs-6 px-5 mt-3 collapse">
                                     <span class="col-4 col-md-2 col-lg-2 col-xl-2" *ngFor="let t of temp;let i=index;">
                                         <span *ngIf="data[t] != null">{{ data[t].split(":00").join("") }}</span>
                                     </span>
                                 </div>
-                                <!--end::Body-->
                             </div>
-                            <!--end::Item-->
-                            <!--begin::Separator-->
                             <div class="separator separator-dashed"></div>
-                            <!--end::Separator-->
                         </div>
-
-
                     </div>
                 </div>
                 <div class="tab-pane fade" id="kt_charts_widget_33_tab_content_2" role="tabpanel"
                     aria-labelledby="#kt_charts_widget_33_tab_2">
                     <div class="accordion accordion-icon-toggle mt-5 mb-5">
                         <div *ngFor="let data of routeDown;let i=index;">
-                            <!--begin::Item-->
                             <div class="my-4">
-                                <!--begin::Header-->
                                 <div class="accordion-header d-flex flex-stack collapsed px-1" data-bs-toggle="collapse"
                                     [attr.data-bs-target]="'#accordion_' + i" aria-expanded="false">
                                     <h3 class="text-primary opacity-75-hover fs-6 fw-semibold mb-0 lh-0"> {{
@@ -111,29 +89,19 @@
                                                     fill="currentColor"></path>
                                             </svg>
                                         </span>
-                                        <!--end::Svg Icon-->
                                     </span>
                                 </div>
-                                <!--end::Header-->
-                                <!--begin::Body-->
                                 <div id="{{ 'accordion_' + i}}" class="row fs-6 px-5 mt-3 collapse">
-                                    <span class="col-sm-3 col-md-2 col-xl-2" *ngFor="let t of temp;let i=index;">
+                                    <span class="col-4 col-md-2 col-lg-2 col-xl-2" *ngFor="let t of temp;let i=index;">
                                         <span *ngIf="data[t] != null">{{ data[t].split(":00 ").join("") }}</span>
                                     </span>
                                 </div>
-                                <!--end::Body-->
                             </div>
                             <div class="separator separator-dashed"></div>
-                            <!--end::Separator-->
                         </div>
                     </div>
                 </div>
             </div>
-            <!--end::Tab Content-->
         </div>
-
-
-
-
     </div>
 </div>
