@@ -10,6 +10,7 @@ import { RmtsService } from 'src/app/service/rmts.service';
 export class BusDetailComponent implements OnInit {
 
   id: any;
+  speech: any;
   BusDetail: any;
   TotalBusStop: number = 0;
 
@@ -19,17 +20,18 @@ export class BusDetailComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
+    this.speech = new SpeechSynthesisUtterance();
     this.id = this.route.snapshot.params['id'];
     this.getBusDetail(this.id)
   }
 
   speak(word:any) {
+    this.speech.cancel();
     let voices = window.speechSynthesis.getVoices();
-    let speech = new SpeechSynthesisUtterance()
-    speech.voice = voices[9];
-		speech.text = word;
-		speech.lang = "hi-IN";
-		speechSynthesis.speak(speech);
+    this.speech.voice = voices[9];
+		this.speech.text = word;
+		this.speech.lang = "hi-IN";
+		speechSynthesis.speak(this.speech);
   }
 
   getBusDetail(id: any) {
