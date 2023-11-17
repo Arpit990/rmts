@@ -7,7 +7,7 @@ import { ApolloModule, APOLLO_OPTIONS } from 'apollo-angular';
 import { ApolloClientOptions, InMemoryCache } from '@apollo/client/core';
 import { HttpLink } from 'apollo-angular/http';
 
-const uri = 'https://api.rmtsbus.in/graphql';
+const uri = 'https://rmts-api-bhautik96016.cloud.okteto.net/graphql';
 
 function createApollo(httpLink: HttpLink): ApolloClientOptions<any> {
   return {

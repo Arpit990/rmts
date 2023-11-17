@@ -9,15 +9,15 @@ export class RmtsService {
   constructor(private http: HttpClient) { }
 
   getAllBus(busNo:string = '') {
-    return this.http.get(`https://api.rmtsbus.in/v0/buses/${busNo}`);
+    return this.http.get(`https://rmts-api-bhautik96016.cloud.okteto.net/v0/buses/${busNo}`);
   }
 
   getAllBusStop() {
-    return this.http.get('https://api.rmtsbus.in/v0/stations/?station=');
+    return this.http.get('https://rmts-api-bhautik96016.cloud.okteto.net/v0/stations/?station=');
   }
 
   searchBusByBusStop(source: any, dest: any) {
-    return this.http.get(`https://api.rmtsbus.in/v0/routes/?source=${source}&dest=${dest}`)
+    return this.http.get(`https://rmts-api-bhautik96016.cloud.okteto.net/v0/routes/?source=${source}&dest=${dest}`)
   }
 
   getAllBusFromJSON() {

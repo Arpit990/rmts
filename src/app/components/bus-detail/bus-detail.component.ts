@@ -26,7 +26,7 @@ export class BusDetailComponent implements OnInit {
   }
 
   speak(word:any) {
-    this.speech.cancel();
+    //this.speech.cancel();
     let voices = window.speechSynthesis.getVoices();
     this.speech.voice = voices[9];
 		this.speech.text = word;
